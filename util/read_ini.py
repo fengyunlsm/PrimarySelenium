@@ -11,6 +11,7 @@ class ReadIni:
     def load_ini(self):
         cf = configparser.ConfigParser()
         config_path = os.path.join(base_path, "config", "LocalElement.ini")
+        print (config_path)
         cf.read(config_path)
         return cf
 
