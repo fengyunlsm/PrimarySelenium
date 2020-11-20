@@ -12,7 +12,7 @@ class ReadIni:
         cf = configparser.ConfigParser()
         config_path = os.path.join(base_path, "config", "LocalElement.ini")
         print (config_path)
-        cf.read(config_path)
+        cf.read(config_path, encoding='utf-8')
         return cf
 
     def get_value(self, options, key):
