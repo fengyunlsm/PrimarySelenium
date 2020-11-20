@@ -1,0 +1,56 @@
+2020-11-21 01:36:02,221 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-11-21 01:36:11,004 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-11-21 01:36:22,961 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-11-21 01:36:26,350 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-11-21 01:36:26,351 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-11-21 01:36:26,576 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:26.366919，结束等待时间点：2020-11-21 01:36:26.576931，等待时长为：0:00:00.210012
+2020-11-21 01:36:26,591 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-11-21 01:36:27,089 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-11-21 01:36:27,179 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13544989573
+2020-11-21 01:36:27,943 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-11-21 01:36:27,943 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-11-21 01:36:28,077 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:27.945010，结束等待时间点：2020-11-21 01:36:28.077017，等待时长为：0:00:00.132007
+2020-11-21 01:36:28,091 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-11-21 01:36:28,404 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-11-21 01:36:28,511 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 111111
+2020-11-21 01:36:28,953 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-11-21 01:36:29,070 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:28.954067，结束等待时间点：2020-11-21 01:36:29.070074，等待时长为：0:00:00.116007
+2020-11-21 01:36:29,071 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-11-21 01:36:29,159 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-11-21 01:36:32,685 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 search_input 可见。
+2020-11-21 01:36:33,885 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:32.691281，结束等待时间点：2020-11-21 01:36:33.885349，等待时长为：0:00:01.194068
+2020-11-21 01:36:33,885 basepage.py--> get_element 20: INFO ----->查找 搜索框_输入搜索内容 中的元素 search_input
+2020-11-21 01:36:34,573 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 search_input 可见。
+2020-11-21 01:36:34,649 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:34.574389，结束等待时间点：2020-11-21 01:36:34.649393，等待时长为：0:00:00.075004
+2020-11-21 01:36:34,650 basepage.py--> get_element 20: INFO ----->查找 搜索框_敲回车 中的元素 search_input
+2020-11-21 01:36:34,718 basepage.py--> keyboard 20: INFO ----->在 search_input 元素 搜索框_敲回车 
+2020-11-21 01:36:35,704 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 first_pic 可见。
+2020-11-21 01:36:36,071 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:35.895464，结束等待时间点：2020-11-21 01:36:36.071474，等待时长为：0:00:00.176010
+2020-11-21 01:36:36,072 basepage.py--> get_element 20: INFO ----->查找 商品列表页_跳转到详情页 中的元素 first_pic
+2020-11-21 01:36:36,136 basepage.py--> click_element 20: INFO ----->点击 商品列表页_跳转到详情页  中的元素 first_pic
+2020-11-21 01:36:36,834 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 add_cart_button 可见。
+2020-11-21 01:36:39,366 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:36.835518，结束等待时间点：2020-11-21 01:36:39.366663，等待时长为：0:00:02.531145
+2020-11-21 01:36:39,367 basepage.py--> get_element 20: INFO ----->查找 商品详情页_添加到购物车 中的元素 add_cart_button
+2020-11-21 01:36:39,423 basepage.py--> click_element 20: INFO ----->点击 商品详情页_添加到购物车  中的元素 add_cart_button
+2020-11-21 01:36:40,616 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 cart_button 可见。
+2020-11-21 01:36:40,722 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:40.617734，结束等待时间点：2020-11-21 01:36:40.722740，等待时长为：0:00:00.105006
+2020-11-21 01:36:40,732 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 cart_button 可见。
+2020-11-21 01:36:40,801 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:40.734741，结束等待时间点：2020-11-21 01:36:40.801745，等待时长为：0:00:00.067004
+2020-11-21 01:36:40,802 basepage.py--> get_element 20: INFO ----->查找 首页_进入到购物车 中的元素 cart_button
+2020-11-21 01:36:40,896 basepage.py--> click_element 20: INFO ----->点击 首页_进入到购物车  中的元素 cart_button
+2020-11-21 01:36:41,455 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 decrease_button 可见。
+2020-11-21 01:36:42,265 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:41.464783，结束等待时间点：2020-11-21 01:36:42.265829，等待时长为：0:00:00.801046
+2020-11-21 01:36:42,266 basepage.py--> get_element 20: INFO ----->查找 购物车页_点击- 中的元素 decrease_button
+2020-11-21 01:36:42,321 basepage.py--> click_element 20: INFO ----->点击 购物车页_点击-  中的元素 decrease_button
+2020-11-21 01:36:42,444 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 goods_amount 可见。
+2020-11-21 01:36:42,802 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:42.447839，结束等待时间点：2020-11-21 01:36:42.802859，等待时长为：0:00:00.355020
+2020-11-21 01:36:42,803 basepage.py--> get_element 20: INFO ----->查找 购物车页_查找商品数量 中的元素 goods_amount
+2020-11-21 01:36:43,404 basepage.py--> has_element 20: INFO ----->查找 购物车页_查找-按钮 中的元素 none_reduce_button
+2020-11-21 01:36:43,569 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 empty_cart_button 可见。
+2020-11-21 01:36:43,769 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:43.576904，结束等待时间点：2020-11-21 01:36:43.769915，等待时长为：0:00:00.193011
+2020-11-21 01:36:43,770 basepage.py--> get_element 20: INFO ----->查找 购物车页面_清空购物车 中的元素 empty_cart_button
+2020-11-21 01:36:43,845 basepage.py--> click_element 20: INFO ----->点击 购物车页面_清空购物车  中的元素 empty_cart_button
+2020-11-21 01:36:44,030 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 confirm_empty_cart 可见。
+2020-11-21 01:36:44,340 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-11-21 01:36:44.037930，结束等待时间点：2020-11-21 01:36:44.339947，等待时长为：0:00:00.302017
+2020-11-21 01:36:44,341 basepage.py--> get_element 20: INFO ----->查找 购物车页面_点击确认清空购物车按钮 中的元素 confirm_empty_cart
+2020-11-21 01:36:44,492 basepage.py--> click_element 20: INFO ----->点击 购物车页面_点击确认清空购物车按钮  中的元素 confirm_empty_cart

@@ -194,7 +194,7 @@ function toArray(iter) {
     return Array.prototype.slice.call(iter);
 }
 
-function find(selector, elem) {
+function find(selector, elem) { // eslint-disable-line no-redeclare
     if (!elem) {
         elem = document;
     }
@@ -210,87 +210,89 @@ function find_all(selector, elem) {
 
 function sort_column(elem) {
     toggle_sort_states(elem);
-    var colIndex = toArray(elem.parentNode.childNodes).indexOf(elem);
-    var key;
+    const colIndex = toArray(elem.parentNode.childNodes).indexOf(elem);
+    let key;
     if (elem.classList.contains('numeric')) {
         key = key_num;
     } else if (elem.classList.contains('result')) {
         key = key_result;
+    } else if (elem.classList.contains('links')) {
+        key = key_link;
     } else {
         key = key_alpha;
     }
     sort_table(elem, key(colIndex));
 }
 
-function show_all_extras() {
+function show_all_extras() { // eslint-disable-line no-unused-vars
     find_all('.col-result').forEach(show_extras);
 }
 
-function hide_all_extras() {
+function hide_all_extras() { // eslint-disable-line no-unused-vars
     find_all('.col-result').forEach(hide_extras);
 }
 
 function show_extras(colresult_elem) {
-    var extras = colresult_elem.parentNode.nextElementSibling;
-    var expandcollapse = colresult_elem.firstElementChild;
-    extras.classList.remove("collapsed");
-    expandcollapse.classList.remove("expander");
-    expandcollapse.classList.add("collapser");
+    const extras = colresult_elem.parentNode.nextElementSibling;
+    const expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.remove('collapsed');
+    expandcollapse.classList.remove('expander');
+    expandcollapse.classList.add('collapser');
 }
 
 function hide_extras(colresult_elem) {
-    var extras = colresult_elem.parentNode.nextElementSibling;
-    var expandcollapse = colresult_elem.firstElementChild;
-    extras.classList.add("collapsed");
-    expandcollapse.classList.remove("collapser");
-    expandcollapse.classList.add("expander");
+    const extras = colresult_elem.parentNode.nextElementSibling;
+    const expandcollapse = colresult_elem.firstElementChild;
+    extras.classList.add('collapsed');
+    expandcollapse.classList.remove('collapser');
+    expandcollapse.classList.add('expander');
 }
 
 function show_filters() {
-    var filter_items = document.getElementsByClassName('filter');
-    for (var i = 0; i < filter_items.length; i++)
+    const filter_items = document.getElementsByClassName('filter');
+    for (let i = 0; i < filter_items.length; i++)
         filter_items[i].hidden = false;
 }
 
 function add_collapse() {
     // Add links for show/hide all
-    var resulttable = find('table#results-table');
-    var showhideall = document.createElement("p");
+    const resulttable = find('table#results-table');
+    const showhideall = document.createElement('p');
     showhideall.innerHTML = '<a href="javascript:show_all_extras()">Show all details</a> / ' +
                             '<a href="javascript:hide_all_extras()">Hide all details</a>';
     resulttable.parentElement.insertBefore(showhideall, resulttable);
 
     // Add show/hide link to each result
     find_all('.col-result').forEach(function(elem) {
-        var collapsed = get_query_parameter('collapsed') || 'Passed';
-        var extras = elem.parentNode.nextElementSibling;
-        var expandcollapse = document.createElement("span");
-        if (extras.classList.contains("collapsed")) {
-            expandcollapse.classList.add("expander")
+        const collapsed = get_query_parameter('collapsed') || 'Passed';
+        const extras = elem.parentNode.nextElementSibling;
+        const expandcollapse = document.createElement('span');
+        if (extras.classList.contains('collapsed')) {
+            expandcollapse.classList.add('expander');
         } else if (collapsed.includes(elem.innerHTML)) {
-            extras.classList.add("collapsed");
-            expandcollapse.classList.add("expander");
+            extras.classList.add('collapsed');
+            expandcollapse.classList.add('expander');
         } else {
-            expandcollapse.classList.add("collapser");
+            expandcollapse.classList.add('collapser');
         }
         elem.appendChild(expandcollapse);
 
-        elem.addEventListener("click", function(event) {
-            if (event.currentTarget.parentNode.nextElementSibling.classList.contains("collapsed")) {
+        elem.addEventListener('click', function(event) {
+            if (event.currentTarget.parentNode.nextElementSibling.classList.contains('collapsed')) {
                 show_extras(event.currentTarget);
             } else {
                 hide_extras(event.currentTarget);
             }
         });
-    })
+    });
 }
 
 function get_query_parameter(name) {
-    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    const match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 }
 
-function init () {
+function init () { // eslint-disable-line no-unused-vars
     reset_sort_headers();
 
     add_collapse();
@@ -300,52 +302,51 @@ function init () {
     sort_column(find('.initial-sort'));
 
     find_all('.sortable').forEach(function(elem) {
-        elem.addEventListener("click",
-                              function(event) {
-                                  sort_column(elem);
-                              }, false)
+        elem.addEventListener('click',
+            function() {
+                sort_column(elem);
+            }, false);
     });
-
-};
+}
 
 function sort_table(clicked, key_func) {
-    var rows = find_all('.results-table-row');
-    var reversed = !clicked.classList.contains('asc');
-    var sorted_rows = sort(rows, key_func, reversed);
+    const rows = find_all('.results-table-row');
+    const reversed = !clicked.classList.contains('asc');
+    const sorted_rows = sort(rows, key_func, reversed);
     /* Whole table is removed here because browsers acts much slower
      * when appending existing elements.
      */
-    var thead = document.getElementById("results-table-head");
+    const thead = document.getElementById('results-table-head');
     document.getElementById('results-table').remove();
-    var parent = document.createElement("table");
-    parent.id = "results-table";
+    const parent = document.createElement('table');
+    parent.id = 'results-table';
     parent.appendChild(thead);
     sorted_rows.forEach(function(elem) {
         parent.appendChild(elem);
     });
-    document.getElementsByTagName("BODY")[0].appendChild(parent);
+    document.getElementsByTagName('BODY')[0].appendChild(parent);
 }
 
 function sort(items, key_func, reversed) {
-    var sort_array = items.map(function(item, i) {
+    const sort_array = items.map(function(item, i) {
         return [key_func(item), i];
     });
 
     sort_array.sort(function(a, b) {
-        var key_a = a[0];
-        var key_b = b[0];
+        const key_a = a[0];
+        const key_b = b[0];
 
         if (key_a == key_b) return 0;
 
         if (reversed) {
-            return (key_a < key_b ? 1 : -1);
+            return key_a < key_b ? 1 : -1;
         } else {
-            return (key_a > key_b ? 1 : -1);
+            return key_a > key_b ? 1 : -1;
         }
     });
 
     return sort_array.map(function(item) {
-        var index = item[1];
+        const index = item[1];
         return items[index];
     });
 }
@@ -362,10 +363,17 @@ function key_num(col_index) {
     };
 }
 
+function key_link(col_index) {
+    return function(elem) {
+        const dataCell = elem.childNodes[1].childNodes[col_index].firstChild;
+        return dataCell == null ? '' : dataCell.innerText.toLowerCase();
+    };
+}
+
 function key_result(col_index) {
     return function(elem) {
-        var strings = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed',
-                       'Skipped', 'Passed'];
+        const strings = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed',
+            'Skipped', 'Passed'];
         return strings.indexOf(elem.childNodes[1].childNodes[col_index].firstChild.data);
     };
 }
@@ -375,12 +383,12 @@ function reset_sort_headers() {
         elem.parentNode.removeChild(elem);
     });
     find_all('.sortable').forEach(function(elem) {
-        var icon = document.createElement("div");
-        icon.className = "sort-icon";
-        icon.textContent = "vvv";
+        const icon = document.createElement('div');
+        icon.className = 'sort-icon';
+        icon.textContent = 'vvv';
         elem.insertBefore(icon, elem.firstChild);
-        elem.classList.remove("desc", "active");
-        elem.classList.add("asc", "inactive");
+        elem.classList.remove('desc', 'active');
+        elem.classList.add('asc', 'inactive');
     });
 }
 
@@ -400,27 +408,27 @@ function toggle_sort_states(elem) {
 }
 
 function is_all_rows_hidden(value) {
-  return value.hidden == false;
+    return value.hidden == false;
 }
 
-function filter_table(elem) {
-    var outcome_att = "data-test-result";
-    var outcome = elem.getAttribute(outcome_att);
-    class_outcome = outcome + " results-table-row";
-    var outcome_rows = document.getElementsByClassName(class_outcome);
+function filter_table(elem) { // eslint-disable-line no-unused-vars
+    const outcome_att = 'data-test-result';
+    const outcome = elem.getAttribute(outcome_att);
+    const class_outcome = outcome + ' results-table-row';
+    const outcome_rows = document.getElementsByClassName(class_outcome);
 
-    for(var i = 0; i < outcome_rows.length; i++){
+    for(let i = 0; i < outcome_rows.length; i++){
         outcome_rows[i].hidden = !elem.checked;
     }
 
-    var rows = find_all('.results-table-row').filter(is_all_rows_hidden);
-    var all_rows_hidden = rows.length == 0 ? true : false;
-    var not_found_message = document.getElementById("not-found-message");
+    const rows = find_all('.results-table-row').filter(is_all_rows_hidden);
+    const all_rows_hidden = rows.length == 0 ? true : false;
+    const not_found_message = document.getElementById('not-found-message');
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 20-Nov-2020 at 20:56:41 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 21-Nov-2020 at 01:36:48 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.0.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -428,18 +436,18 @@ function filter_table(elem) {
         <td>C:\Program Files\Java\jdk-14.0.2</td></tr>
       <tr>
         <td>Packages</td>
-        <td>{"pluggy": "0.13.1", "py": "1.9.0", "pytest": "5.4.3"}</td></tr>
+        <td>{"pluggy": "0.13.1", "py": "1.9.0", "pytest": "6.1.2"}</td></tr>
       <tr>
         <td>Platform</td>
         <td>Windows-7-6.1.7601-SP1</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{"allure-pytest": "2.8.16", "html": "2.1.1", "metadata": "1.10.0", "ordering": "0.6", "rerunfailures": "9.0"}</td></tr>
+        <td>{"allure-pytest": "2.8.20", "html": "3.0.0", "metadata": "1.10.0", "rerunfailures": "9.1.1"}</td></tr>
       <tr>
         <td>Python</td>
         <td>3.8.3</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 53.24 seconds. </p>
+    <p>1 tests ran in 56.79 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -448,69 +456,15 @@ function filter_table(elem) {
           <th class="sortable result initial-sort" col="result">Result</th>
           <th class="sortable" col="name">Test</th>
           <th class="sortable numeric" col="duration">Duration</th>
-          <th>Links</th></tr>
+          <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">case/shoppingcart/test_shopping_cart.py::TestShoppingCartCase::test_reduce_goods</td>
-          <td class="col-duration">8.05</td>
+          <td class="col-duration">46.73</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log setup------------------------------- <br/>INFO     util.usr_log:basepage.py:28 {&#x27;开始打开chrome浏览器&#x27;}
-INFO     util.usr_log:basepage.py:54 开始打开地址 http://eshop.tslj.cn/#/login
-INFO     util.usr_log:basepage.py:114 对窗口的操作-最大化<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     util.usr_log:basepage.py:351 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
-INFO     util.usr_log:basepage.py:87 等待元素 login_phone_parent 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:27.540061，结束等待时间点：2020-11-20 20:56:27.620065，等待时长为：0:00:00.080004
-INFO     util.usr_log:basepage.py:265 查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
-INFO     util.usr_log:basepage.py:308 查找 登录页面_查找手机号输入框 中的元素 login_phone_children
-INFO     util.usr_log:basepage.py:372 在 登录页面_输入手机号 值为 13544989573
-INFO     util.usr_log:basepage.py:351 查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
-INFO     util.usr_log:basepage.py:87 等待元素 login_password_parent 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:27.953084，结束等待时间点：2020-11-20 20:56:27.981086，等待时长为：0:00:00.028002
-INFO     util.usr_log:basepage.py:265 查找 登录页面_查找密码输入框 中的元素 login_password_parent
-INFO     util.usr_log:basepage.py:308 查找 登录页面_查找密码输入框 中的元素 login_password_children
-INFO     util.usr_log:basepage.py:372 在 登录页面_输入密码 值为 111111
-INFO     util.usr_log:basepage.py:87 等待元素 login_button 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:28.213099，结束等待时间点：2020-11-20 20:56:28.247101，等待时长为：0:00:00.034002
-INFO     util.usr_log:basepage.py:192 查找 登录页面_点击登录按钮 中的元素 login_button
-INFO     util.usr_log:basepage.py:387 点击 登录页面_点击登录按钮  中的元素 login_button
-INFO     util.usr_log:basepage.py:87 等待元素 search_input 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:30.372223，结束等待时间点：2020-11-20 20:56:30.455227，等待时长为：0:00:00.083004
-INFO     util.usr_log:basepage.py:192 查找 搜索框_输入搜索内容 中的元素 search_input
-INFO     util.usr_log:basepage.py:87 等待元素 search_input 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:31.068262，结束等待时间点：2020-11-20 20:56:31.108265，等待时长为：0:00:00.040003
-INFO     util.usr_log:basepage.py:192 查找 搜索框_敲回车 中的元素 search_input
-INFO     util.usr_log:basepage.py:480 在 search_input 元素 搜索框_敲回车 
-INFO     util.usr_log:basepage.py:87 等待元素 first_pic 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:31.391281，结束等待时间点：2020-11-20 20:56:31.641295，等待时长为：0:00:00.250014
-INFO     util.usr_log:basepage.py:192 查找 商品列表页_跳转到详情页 中的元素 first_pic
-INFO     util.usr_log:basepage.py:387 点击 商品列表页_跳转到详情页  中的元素 first_pic
-INFO     util.usr_log:basepage.py:87 等待元素 add_cart_button 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:32.063319，结束等待时间点：2020-11-20 20:56:32.754359，等待时长为：0:00:00.691040
-INFO     util.usr_log:basepage.py:192 查找 商品详情页_添加到购物车 中的元素 add_cart_button
-INFO     util.usr_log:basepage.py:387 点击 商品详情页_添加到购物车  中的元素 add_cart_button
-INFO     util.usr_log:basepage.py:87 等待元素 cart_button 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:33.859422，结束等待时间点：2020-11-20 20:56:33.907425，等待时长为：0:00:00.048003
-INFO     util.usr_log:basepage.py:87 等待元素 cart_button 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:33.916425，结束等待时间点：2020-11-20 20:56:33.967428，等待时长为：0:00:00.051003
-INFO     util.usr_log:basepage.py:192 查找 首页_进入到购物车 中的元素 cart_button
-INFO     util.usr_log:basepage.py:387 点击 首页_进入到购物车  中的元素 cart_button
-INFO     util.usr_log:basepage.py:87 等待元素 decrease_button 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:34.172440，结束等待时间点：2020-11-20 20:56:34.810476，等待时长为：0:00:00.638036
-INFO     util.usr_log:basepage.py:192 查找 购物车页_点击- 中的元素 decrease_button
-INFO     util.usr_log:basepage.py:387 点击 购物车页_点击-  中的元素 decrease_button
-INFO     util.usr_log:basepage.py:87 等待元素 goods_amount 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:34.893481，结束等待时间点：2020-11-20 20:56:34.926483，等待时长为：0:00:00.033002
-INFO     util.usr_log:basepage.py:192 查找 购物车页_查找商品数量 中的元素 goods_amount
-INFO     util.usr_log:basepage.py:229 查找 购物车页_查找-按钮 中的元素 none_reduce_button
-INFO     util.usr_log:basepage.py:87 等待元素 empty_cart_button 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:35.029489，结束等待时间点：2020-11-20 20:56:35.065491，等待时长为：0:00:00.036002
-INFO     util.usr_log:basepage.py:192 查找 购物车页面_清空购物车 中的元素 empty_cart_button
-INFO     util.usr_log:basepage.py:387 点击 购物车页面_清空购物车  中的元素 empty_cart_button
-INFO     util.usr_log:basepage.py:87 等待元素 confirm_empty_cart 可见。
-INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 20:56:35.167497，结束等待时间点：2020-11-20 20:56:35.263502，等待时长为：0:00:00.096005
-INFO     util.usr_log:basepage.py:192 查找 购物车页面_点击确认清空购物车按钮 中的元素 confirm_empty_cart
-INFO     util.usr_log:basepage.py:387 点击 购物车页面_点击确认清空购物车按钮  中的元素 confirm_empty_cart<br/></div></td></tr></tbody></table></body></html>
+            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>

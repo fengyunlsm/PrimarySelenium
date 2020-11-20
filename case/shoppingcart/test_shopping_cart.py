@@ -111,10 +111,12 @@ class TestShoppingCartCase():
     def test_incre_goods(self, init_cart):
         init_driver, login, home, cart, productDetail, orderConfirm, search = init_cart
         login.login("13544989573", "111111")
-        # 验证价格是否新增，商品数量是否比原来多
         search.search_product("SNOOPY 史努比系列 18K黄金钻石戒指 13")
         search.navigate_productDetail_page()
         productDetail.add_cart()
         home.enter_cart()
+        cart.click_increase_button()
+        
+
 
         
