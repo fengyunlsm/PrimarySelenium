@@ -29,9 +29,10 @@ class SeleniumDriver:
         try:
             if browser == 'chrome':
                 options = webdriver.ChromeOptions()
-                prefs = {'download.default_directory': 'D:\\Download\\', 'profile.default_content_settings.popups': 0} # 设置自定义路径
-                options.add_experimental_option('prefs', prefs) # 设置默认路径
-                driver = webdriver.Chrome(options=options)
+                # prefs = {'download.default_directory': 'D:\\Download\\', 'profile.default_content_settings.popups': 0} # 设置自定义路径
+                # options.add_experimental_option('prefs', prefs) # 设置默认路径
+                chromedriver = '/usr/bin/chromedriver'
+                driver = webdriver.Chrome(executable_path=chromedriver) # 输入参数为options=options
             elif browser == 'firefox':
                 profile = webdriver.FirefoxProfile()
                 profile.set_preference('browser.download.dir', 'D:\\Download\\')
