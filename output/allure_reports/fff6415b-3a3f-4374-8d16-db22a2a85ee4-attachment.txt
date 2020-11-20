@@ -1,0 +1,21 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:369 本次登录的cookie： {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': '54bf0f10-73b3-4862-bebe-d69201e819ea'}
+INFO     util.usr_log:basepage.py:86 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:18:18.354371，结束等待时间点：2020-08-14 18:18:18.411375，等待时长为：0:00:00.057004
+INFO     util.usr_log:basepage.py:190 查找 搜索框_输入搜索内容 中的元素 search_input
+INFO     util.usr_log:basepage.py:86 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:18:18.927404，结束等待时间点：2020-08-14 18:18:18.966406，等待时长为：0:00:00.039002
+INFO     util.usr_log:basepage.py:190 查找 搜索框_敲回车 中的元素 search_input
+INFO     util.usr_log:basepage.py:445 在 search_input 元素 搜索框_敲回车 
+INFO     util.usr_log:basepage.py:86 等待元素 first_pic 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:18:19.189419，结束等待时间点：2020-08-14 18:18:19.897460，等待时长为：0:00:00.708041
+INFO     util.usr_log:basepage.py:190 查找 搜索页_查找第一张图片 中的元素 first_pic
+INFO     util.usr_log:basepage.py:86 等待元素 first_pic 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:18:19.947463，结束等待时间点：2020-08-14 18:18:19.989465，等待时长为：0:00:00.042002
+INFO     util.usr_log:basepage.py:190 查找 商品列表页_跳转到详情页 中的元素 first_pic
+INFO     util.usr_log:basepage.py:353 点击 商品列表页_跳转到详情页  中的元素 first_pic
+INFO     util.usr_log:basepage.py:86 等待元素 shop_name 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:18:21.490551，结束等待时间点：2020-08-14 18:18:21.533553，等待时长为：0:00:00.043002
+INFO     util.usr_log:basepage.py:190 查找 商品详情页_查找商品名字 中的元素 shop_name

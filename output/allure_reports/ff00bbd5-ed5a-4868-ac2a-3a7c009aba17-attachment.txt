@@ -1,0 +1,36 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshopuat.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:317 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_phone_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-16 16:17:21.003114，结束等待时间点：2020-08-16 16:17:21.062118，等待时长为：0:00:00.059004
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+INFO     util.usr_log:basepage.py:272 查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+INFO     util.usr_log:basepage.py:338 在 登录页面_输入手机号 值为 13544989573
+INFO     util.usr_log:basepage.py:317 查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_password_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-16 16:17:21.446140，结束等待时间点：2020-08-16 16:17:21.479142，等待时长为：0:00:00.033002
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找密码输入框 中的元素 login_password_parent
+INFO     util.usr_log:basepage.py:272 查找 登录页面_查找密码输入框 中的元素 login_password_children
+INFO     util.usr_log:basepage.py:338 在 登录页面_输入密码 值为 6329017abc
+INFO     util.usr_log:basepage.py:86 等待元素 login_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-16 16:17:21.780159，结束等待时间点：2020-08-16 16:17:21.818161，等待时长为：0:00:00.038002
+INFO     util.usr_log:basepage.py:190 查找 登录页面_点击登录按钮 中的元素 login_button
+INFO     util.usr_log:basepage.py:353 点击 登录页面_点击登录按钮  中的元素 login_button
+INFO     util.usr_log:basepage.py:86 等待元素 cart_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-16 16:17:22.915224，结束等待时间点：2020-08-16 16:17:23.217241，等待时长为：0:00:00.302017
+INFO     util.usr_log:basepage.py:86 等待元素 cart_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-16 16:17:23.228242，结束等待时间点：2020-08-16 16:17:23.297246，等待时长为：0:00:00.069004
+INFO     util.usr_log:basepage.py:190 查找 首页_进入到购物车 中的元素 cart_button
+INFO     util.usr_log:basepage.py:353 点击 首页_进入到购物车  中的元素 cart_button
+INFO     util.usr_log:basepage.py:86 等待元素 e-commerce-checkbox 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-16 16:17:23.592262，结束等待时间点：2020-08-16 16:17:24.209298，等待时长为：0:00:00.617036
+INFO     util.usr_log:basepage.py:190 查找 购物车页面_勾选电商商品 中的元素 e-commerce-checkbox
+INFO     util.usr_log:basepage.py:353 点击 购物车页面_勾选电商商品  中的元素 e-commerce-checkbox
+INFO     util.usr_log:basepage.py:86 等待元素 increase_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-16 16:17:24.343305，结束等待时间点：2020-08-16 16:17:24.400309，等待时长为：0:00:00.057004
+INFO     util.usr_log:basepage.py:190 查找 购物车页_点击+ 中的元素 increase_button
+INFO     util.usr_log:basepage.py:353 点击 购物车页_点击+  中的元素 increase_button
+INFO     util.usr_log:basepage.py:86 等待元素 subtotal 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-16 16:17:24.573319，结束等待时间点：2020-08-16 16:17:24.634322，等待时长为：0:00:00.061003
+INFO     util.usr_log:basepage.py:190 查找 购物车页_小计计算正确 中的元素 subtotal

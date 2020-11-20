@@ -1,0 +1,14 @@
+INFO     util.usr_log:basepage.py:28 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:54 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:113 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:350 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+INFO     util.usr_log:basepage.py:87 等待元素 login_phone_parent 可见。
+ERROR    util.usr_log:basepage.py:101 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 94, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     util.usr_log:basepage.py:151 网页截图成功。图片存储在：D:\pyProject\PrimarySelenium\output/image\2020-11-20\登录页面_查找手机号输入框_2020-11-20 19_48_00.png

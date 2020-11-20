@@ -1,0 +1,25 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:317 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_phone_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:11:23.670653，结束等待时间点：2020-08-14 18:11:23.723656，等待时长为：0:00:00.053003
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+INFO     util.usr_log:basepage.py:272 查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+INFO     util.usr_log:basepage.py:338 在 登录页面_输入手机号 值为 13710646151
+INFO     util.usr_log:basepage.py:317 查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_password_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:11:24.073676，结束等待时间点：2020-08-14 18:11:24.097677，等待时长为：0:00:00.024001
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找密码输入框 中的元素 login_password_parent
+INFO     util.usr_log:basepage.py:272 查找 登录页面_查找密码输入框 中的元素 login_password_children
+INFO     util.usr_log:basepage.py:338 在 登录页面_输入密码 值为 123456
+INFO     util.usr_log:basepage.py:86 等待元素 login_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:11:24.328691，结束等待时间点：2020-08-14 18:11:24.369693，等待时长为：0:00:00.041002
+INFO     util.usr_log:basepage.py:190 查找 登录页面_点击登录按钮 中的元素 login_button
+INFO     util.usr_log:basepage.py:353 点击 登录页面_点击登录按钮  中的元素 login_button
+INFO     util.usr_log:basepage.py:86 等待元素 login_message_success 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:11:24.509701，结束等待时间点：2020-08-14 18:11:25.195740，等待时长为：0:00:00.686039
+INFO     util.usr_log:basepage.py:317 查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+INFO     util.usr_log:basepage.py:86 等待元素 login_success_tip 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:11:25.197740，结束等待时间点：2020-08-14 18:11:25.309747，等待时长为：0:00:00.112007
+INFO     util.usr_log:basepage.py:228 查找 校验登录_登录成功 中的元素 login_success_tip

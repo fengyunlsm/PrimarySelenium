@@ -1,0 +1,25 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:314 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_phone_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 17:31:31.858441，结束等待时间点：2020-11-19 17:31:31.947446，等待时长为：0:00:00.089005
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+INFO     util.usr_log:basepage.py:271 查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+INFO     util.usr_log:basepage.py:335 在 登录页面_输入手机号 值为 13544989573
+INFO     util.usr_log:basepage.py:314 查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_password_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 17:31:32.484476，结束等待时间点：2020-11-19 17:31:32.514478，等待时长为：0:00:00.030002
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找密码输入框 中的元素 login_password_parent
+INFO     util.usr_log:basepage.py:271 查找 登录页面_查找密码输入框 中的元素 login_password_children
+INFO     util.usr_log:basepage.py:335 在 登录页面_输入密码 值为 111111
+INFO     util.usr_log:basepage.py:86 等待元素 login_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 17:31:32.792494，结束等待时间点：2020-11-19 17:31:32.842497，等待时长为：0:00:00.050003
+INFO     util.usr_log:basepage.py:190 查找 登录页面_点击登录按钮 中的元素 login_button
+INFO     util.usr_log:basepage.py:350 点击 登录页面_点击登录按钮  中的元素 login_button
+INFO     util.usr_log:basepage.py:86 等待元素 cart_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 17:31:32.984505，结束等待时间点：2020-11-19 17:31:33.037508，等待时长为：0:00:00.053003
+INFO     util.usr_log:basepage.py:86 等待元素 cart_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 17:31:33.040508，结束等待时间点：2020-11-19 17:31:33.073510，等待时长为：0:00:00.033002
+INFO     util.usr_log:basepage.py:190 查找 首页_进入到购物车 中的元素 cart_button
+INFO     util.usr_log:basepage.py:350 点击 首页_进入到购物车  中的元素 cart_button

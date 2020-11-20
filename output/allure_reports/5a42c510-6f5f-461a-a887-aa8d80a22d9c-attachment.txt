@@ -1,0 +1,23 @@
+INFO     util.usr_log:basepage.py:26 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:52 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:111 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:85 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:42:27.868082，结束等待时间点：2020-08-13 23:42:27.911084，等待时长为：0:00:00.043002
+INFO     util.usr_log:basepage.py:189 查找 搜索框_输入搜索内容 中的元素 search_input
+INFO     util.usr_log:basepage.py:85 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:42:28.216101，结束等待时间点：2020-08-13 23:42:28.241103，等待时长为：0:00:00.025002
+INFO     util.usr_log:basepage.py:189 查找 搜索框_敲回车 中的元素 search_input
+INFO     util.usr_log:basepage.py:422 在 search_input 元素 搜索框_敲回车 
+INFO     util.usr_log:basepage.py:85 等待元素 first_pic 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:42:28.464116，结束等待时间点：2020-08-13 23:42:28.610124，等待时长为：0:00:00.146008
+INFO     util.usr_log:basepage.py:189 查找 搜索页_查找第一张图片 中的元素 first_pic
+INFO     util.usr_log:basepage.py:85 等待元素 first_pic 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:42:28.647126，结束等待时间点：2020-08-13 23:42:28.677128，等待时长为：0:00:00.030002
+INFO     util.usr_log:basepage.py:189 查找 商品列表页_跳转到详情页 中的元素 first_pic
+INFO     util.usr_log:basepage.py:352 点击 商品列表页_跳转到详情页  中的元素 first_pic
+INFO     util.usr_log:basepage.py:85 等待元素 shop_name 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:42:29.073150，结束等待时间点：2020-08-13 23:42:29.226159，等待时长为：0:00:00.153009
+INFO     util.usr_log:basepage.py:189 查找 商品详情页_查找商品名字 中的元素 shop_name
+INFO     util.usr_log:basepage.py:85 等待元素 shop_name 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:42:29.265161，结束等待时间点：2020-08-13 23:42:29.298163，等待时长为：0:00:00.033002
+INFO     util.usr_log:basepage.py:189 查找 商品详情页_查找商品名字 中的元素 shop_name

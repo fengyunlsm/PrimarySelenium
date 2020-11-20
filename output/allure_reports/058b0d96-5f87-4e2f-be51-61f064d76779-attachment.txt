@@ -1,0 +1,10 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:369 本次登录的cookie： {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': 'a3b04f8e-9abf-4bf3-911c-e0338cb73f43'} 
+INFO     util.usr_log:basepage.py:376 确认是否保存cookies [{'domain': 'eshop.tslj.cn', 'expiry': 1597488959, 'httpOnly': False, 'name': 'pageViewNum', 'path': '/', 'secure': False, 'value': '1'}, {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': 'a3b04f8e-9abf-4bf3-911c-e0338cb73f43'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597404359, 'httpOnly': False, 'name': 'qimo_seosource_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': '%E7%AB%99%E5%86%85'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597488959, 'httpOnly': False, 'name': 'accessId', 'path': '/', 'secure': False, 'value': '9c912900-5500-11e8-aeee-f504f23baa26'}, {'domain': 'eshop.tslj.cn', 'httpOnly': False, 'name': 'href', 'path': '/', 'secure': False, 'value': 'http%3A%2F%2Feshop.tslj.cn%2F%23%2Flogin'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597404359, 'httpOnly': False, 'name': 'qimo_seokeywords_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': ''}]
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/pd/129826705129922560
+INFO     util.usr_log:basepage.py:86 等待元素 buy_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:56:19.806863，结束等待时间点：2020-08-14 18:56:20.494902，等待时长为：0:00:00.688039
+INFO     util.usr_log:basepage.py:190 查找 商品详情页_点击立即购买按钮 中的元素 buy_button
+INFO     util.usr_log:basepage.py:353 点击 商品详情页_点击立即购买按钮  中的元素 buy_button

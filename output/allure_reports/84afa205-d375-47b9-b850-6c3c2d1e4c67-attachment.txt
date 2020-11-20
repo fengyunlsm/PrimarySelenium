@@ -1,0 +1,13 @@
+INFO     util.usr_log:basepage.py:26 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:52 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:111 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:85 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:16:48.150015，结束等待时间点：2020-08-13 23:16:48.193017，等待时长为：0:00:00.043002
+INFO     util.usr_log:basepage.py:189 查找 搜索框_输入搜索内容 中的元素 search_input
+INFO     util.usr_log:basepage.py:85 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:16:48.588040，结束等待时间点：2020-08-13 23:16:48.619042，等待时长为：0:00:00.031002
+INFO     util.usr_log:basepage.py:189 查找 搜索框_敲回车 中的元素 search_input
+INFO     util.usr_log:basepage.py:422 在 search_input 元素 搜索框_敲回车 
+INFO     util.usr_log:basepage.py:85 等待元素 first_pic 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 23:16:48.903058，结束等待时间点：2020-08-13 23:16:49.126071，等待时长为：0:00:00.223013
+INFO     util.usr_log:basepage.py:189 查找 搜索页_查找第一张图片 中的元素 first_pic

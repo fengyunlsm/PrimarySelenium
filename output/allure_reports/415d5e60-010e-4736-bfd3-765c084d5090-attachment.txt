@@ -1,0 +1,32 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:314 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_phone_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 17:27:44.006408，结束等待时间点：2020-11-19 17:27:44.061411，等待时长为：0:00:00.055003
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+INFO     util.usr_log:basepage.py:271 查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+INFO     util.usr_log:basepage.py:335 在 登录页面_输入手机号 值为 13544989573
+INFO     util.usr_log:basepage.py:314 查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_password_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 17:27:44.421432，结束等待时间点：2020-11-19 17:27:44.450434，等待时长为：0:00:00.029002
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找密码输入框 中的元素 login_password_parent
+INFO     util.usr_log:basepage.py:271 查找 登录页面_查找密码输入框 中的元素 login_password_children
+INFO     util.usr_log:basepage.py:335 在 登录页面_输入密码 值为 111111
+INFO     util.usr_log:basepage.py:86 等待元素 登录页面_点击登录按钮 可见。
+ERROR    util.usr_log:basepage.py:100 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 90, in wait_eleVisible
+    loc = self.getLocation(node, info)
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 65, in getLocation
+    by, value = self.read_ini(node, info)
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 405, in read_ini
+    data = read_ini.get_value(node, info)
+  File "D:\pyProject\PrimarySelenium\util\read_ini.py", line 14, in get_value
+    return self.data.get(options, key)
+  File "D:\python\lib\configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "D:\python\lib\configparser.py", line 1149, in _unify_values
+    raise NoSectionError(section) from None
+configparser.NoSectionError: No section: 'login_button'
+INFO     util.usr_log:basepage.py:150 网页截图成功。图片存储在：D:\pyProject\PrimarySelenium\output/image\2020-11-19\_2020-11-19 17_27_44.png

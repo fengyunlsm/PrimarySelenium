@@ -1,0 +1,26 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:317 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_phone_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 08:31:31.132776，结束等待时间点：2020-11-19 08:31:31.180778，等待时长为：0:00:00.048002
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+INFO     util.usr_log:basepage.py:272 查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+INFO     util.usr_log:basepage.py:338 在 登录页面_输入手机号 值为 13710646151
+INFO     util.usr_log:basepage.py:317 查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_password_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 08:31:31.597802，结束等待时间点：2020-11-19 08:31:31.629804，等待时长为：0:00:00.032002
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找密码输入框 中的元素 login_password_parent
+INFO     util.usr_log:basepage.py:272 查找 登录页面_查找密码输入框 中的元素 login_password_children
+INFO     util.usr_log:basepage.py:338 在 登录页面_输入密码 值为 
+INFO     util.usr_log:basepage.py:86 等待元素 login_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 08:31:31.830815，结束等待时间点：2020-11-19 08:31:31.878818，等待时长为：0:00:00.048003
+INFO     util.usr_log:basepage.py:190 查找 登录页面_点击登录按钮 中的元素 login_button
+INFO     util.usr_log:basepage.py:353 点击 登录页面_点击登录按钮  中的元素 login_button
+INFO     util.usr_log:basepage.py:86 等待元素 login_error_tip_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 08:31:32.046828，结束等待时间点：2020-11-19 08:31:32.147834，等待时长为：0:00:00.101006
+INFO     util.usr_log:basepage.py:317 查找 校验登录_用户名或密码错误 中的第 0 个元素 login_error_tip_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_error_tip_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 08:31:32.149834，结束等待时间点：2020-11-19 08:31:32.193836，等待时长为：0:00:00.044002
+INFO     util.usr_log:basepage.py:228 查找 校验登录_用户名或密码错误 中的元素 login_error_tip_parent
+INFO     util.usr_log:basepage.py:272 查找 校验登录_用户名或密码错误 中的元素 login_error_tip_child

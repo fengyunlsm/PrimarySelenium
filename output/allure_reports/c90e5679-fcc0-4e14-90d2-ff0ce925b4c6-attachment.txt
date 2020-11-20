@@ -1,0 +1,13 @@
+INFO     util.usr_log:basepage.py:26 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:52 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:107 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:81 等待元素 forget_password 可见。
+ERROR    util.usr_log:basepage.py:95 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 88, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     util.usr_log:basepage.py:145 网页截图成功。图片存储在：D:\pyProject\PrimarySelenium\output/image\2020-08-13\登录页面_点击忘记密码_2020-08-13 12_42_33.png

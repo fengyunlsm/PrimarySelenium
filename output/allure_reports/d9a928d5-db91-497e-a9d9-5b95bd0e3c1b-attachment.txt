@@ -1,0 +1,8 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/pd/129826705129922560
+INFO     util.usr_log:basepage.py:86 等待元素 buy_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-08-14 18:55:21.531530，结束等待时间点：2020-08-14 18:55:22.185567，等待时长为：0:00:00.654037
+INFO     util.usr_log:basepage.py:190 查找 商品详情页_点击立即购买按钮 中的元素 buy_button
+INFO     util.usr_log:basepage.py:353 点击 商品详情页_点击立即购买按钮  中的元素 buy_button

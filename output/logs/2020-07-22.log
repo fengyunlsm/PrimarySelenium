@@ -1,0 +1,54 @@
+2020-07-22 17:10:24,340 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-22 17:10:27,599 basepage.py--> get_url 20: INFO ----->开始打开地址http://www.5itest.cn/register
+2020-07-22 17:10:37,846 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-22 17:10:41,028 basepage.py--> handle_window 20: INFO ----->对窗口的操作-刷新
+2020-07-22 17:10:43,520 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入邮件地址 中的元素 user_email
+2020-07-22 17:10:43,757 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入用户名 中的元素 user_name
+2020-07-22 17:10:44,131 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入密码 中的元素 password
+2020-07-22 17:10:56,471 basepage.py--> get_element 20: INFO ----->查找 注册页面_点击注册按钮 中的元素 register_button
+2020-07-22 17:10:57,274 basepage.py--> get_element 20: INFO ----->查找 注册页面_查找注册按钮 中的元素 register_button
+2020-07-22 17:11:06,615 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-22 17:11:10,509 basepage.py--> get_url 20: INFO ----->开始打开地址http://www.5itest.cn/register
+2020-07-22 17:11:20,586 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-22 17:11:23,737 basepage.py--> handle_window 20: INFO ----->对窗口的操作-刷新
+2020-07-22 17:11:26,284 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入邮件地址 中的元素 user_email
+2020-07-22 17:11:26,496 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入用户名 中的元素 user_name
+2020-07-22 17:11:26,884 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入密码 中的元素 password
+2020-07-22 17:11:39,219 basepage.py--> get_element 20: INFO ----->查找 注册页面_点击注册按钮 中的元素 register_button
+2020-07-22 17:11:39,890 basepage.py--> get_element 20: INFO ----->查找 注册页面_查找注册按钮 中的元素 register_button
+2020-07-22 17:11:48,231 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-22 17:11:52,171 basepage.py--> get_url 20: INFO ----->开始打开地址http://www.5itest.cn/register
+2020-07-22 17:12:14,937 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-22 17:12:18,102 basepage.py--> handle_window 20: INFO ----->对窗口的操作-刷新
+2020-07-22 17:12:20,624 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入邮件地址 中的元素 user_email
+2020-07-22 17:12:20,870 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入用户名 中的元素 user_name
+2020-07-22 17:12:21,287 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入密码 中的元素 password
+2020-07-22 17:12:33,617 basepage.py--> get_element 20: INFO ----->查找 注册页面_点击注册按钮 中的元素 register_button
+2020-07-22 17:12:34,302 basepage.py--> get_element 20: INFO ----->查找 注册页面_查找注册按钮 中的元素 register_button
+2020-07-22 17:33:39,524 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-22 17:33:42,888 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.5itest.cn/register
+2020-07-22 17:33:53,169 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-22 17:33:56,372 basepage.py--> handle_window 20: INFO ----->对窗口的操作-刷新
+2020-07-22 17:33:58,848 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入邮件地址 中的元素 user_email
+2020-07-22 17:33:59,033 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入用户名 中的元素 user_name
+2020-07-22 17:33:59,433 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入密码 中的元素 password
+2020-07-22 17:34:11,802 basepage.py--> get_element 20: INFO ----->查找 注册页面_点击注册按钮 中的元素 register_button
+2020-07-22 17:34:12,468 basepage.py--> get_element 20: INFO ----->查找 注册页面_查找注册按钮 中的元素 register_button
+2020-07-22 17:34:22,052 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-22 17:34:25,494 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.5itest.cn/register
+2020-07-22 17:34:35,943 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-22 17:34:39,108 basepage.py--> handle_window 20: INFO ----->对窗口的操作-刷新
+2020-07-22 17:34:41,651 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入邮件地址 中的元素 user_email
+2020-07-22 17:34:41,821 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入用户名 中的元素 user_name
+2020-07-22 17:34:42,197 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入密码 中的元素 password
+2020-07-22 17:34:54,533 basepage.py--> get_element 20: INFO ----->查找 注册页面_点击注册按钮 中的元素 register_button
+2020-07-22 17:34:55,176 basepage.py--> get_element 20: INFO ----->查找 注册页面_查找注册按钮 中的元素 register_button
+2020-07-22 17:35:03,542 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-22 17:35:06,901 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.5itest.cn/register
+2020-07-22 17:35:17,093 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-22 17:35:20,276 basepage.py--> handle_window 20: INFO ----->对窗口的操作-刷新
+2020-07-22 17:35:22,862 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入邮件地址 中的元素 user_email
+2020-07-22 17:35:23,040 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入用户名 中的元素 user_name
+2020-07-22 17:35:23,416 basepage.py--> get_element 20: INFO ----->查找 注册页面_输入密码 中的元素 password
+2020-07-22 17:35:35,745 basepage.py--> get_element 20: INFO ----->查找 注册页面_点击注册按钮 中的元素 register_button
+2020-07-22 17:35:36,396 basepage.py--> get_element 20: INFO ----->查找 注册页面_查找注册按钮 中的元素 register_button

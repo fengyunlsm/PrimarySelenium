@@ -1,0 +1,38 @@
+INFO     util.usr_log:basepage.py:27 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:53 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:112 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:86 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 22:18:27.730063，结束等待时间点：2020-11-19 22:18:27.788066，等待时长为：0:00:00.058003
+INFO     util.usr_log:basepage.py:190 查找 搜索框_输入搜索内容 中的元素 search_input
+INFO     util.usr_log:basepage.py:86 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 22:18:27.940075，结束等待时间点：2020-11-19 22:18:27.973076，等待时长为：0:00:00.033001
+INFO     util.usr_log:basepage.py:190 查找 搜索框_敲回车 中的元素 search_input
+INFO     util.usr_log:basepage.py:443 在 search_input 元素 搜索框_敲回车 
+INFO     util.usr_log:basepage.py:86 等待元素 first_pic 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 22:18:28.226091，结束等待时间点：2020-11-19 22:18:28.555110，等待时长为：0:00:00.329019
+INFO     util.usr_log:basepage.py:190 查找 商品列表页_跳转到详情页 中的元素 first_pic
+INFO     util.usr_log:basepage.py:350 点击 商品列表页_跳转到详情页  中的元素 first_pic
+INFO     util.usr_log:basepage.py:86 等待元素 buy_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 22:18:29.053138，结束等待时间点：2020-11-19 22:18:29.291152，等待时长为：0:00:00.238014
+INFO     util.usr_log:basepage.py:190 查找 商品详情页_点击立即购买按钮 中的元素 buy_button
+INFO     util.usr_log:basepage.py:350 点击 商品详情页_点击立即购买按钮  中的元素 buy_button
+INFO     util.usr_log:basepage.py:86 等待元素 login_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 22:18:29.582168，结束等待时间点：2020-11-19 22:18:29.680174，等待时长为：0:00:00.098006
+INFO     util.usr_log:basepage.py:190 查找 商品详情页_点击去登陆按钮 中的元素 login_button
+INFO     util.usr_log:basepage.py:350 点击 商品详情页_点击去登陆按钮  中的元素 login_button
+INFO     util.usr_log:basepage.py:314 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_phone_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 22:18:29.985191，结束等待时间点：2020-11-19 22:18:30.078197，等待时长为：0:00:00.093006
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+INFO     util.usr_log:basepage.py:271 查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+INFO     util.usr_log:basepage.py:335 在 登录页面_输入手机号 值为 13544989573
+INFO     util.usr_log:basepage.py:314 查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+INFO     util.usr_log:basepage.py:86 等待元素 login_password_parent 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 22:18:30.495221，结束等待时间点：2020-11-19 22:18:30.555224，等待时长为：0:00:00.060003
+INFO     util.usr_log:basepage.py:228 查找 登录页面_查找密码输入框 中的元素 login_password_parent
+INFO     util.usr_log:basepage.py:271 查找 登录页面_查找密码输入框 中的元素 login_password_children
+INFO     util.usr_log:basepage.py:335 在 登录页面_输入密码 值为 111111
+INFO     util.usr_log:basepage.py:86 等待元素 login_button 可见。
+INFO     util.usr_log:basepage.py:96 开始等待时间点：2020-11-19 22:18:30.805238，结束等待时间点：2020-11-19 22:18:30.844241，等待时长为：0:00:00.039003
+INFO     util.usr_log:basepage.py:190 查找 登录页面_点击登录按钮 中的元素 login_button
+INFO     util.usr_log:basepage.py:350 点击 登录页面_点击登录按钮  中的元素 login_button

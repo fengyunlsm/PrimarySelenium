@@ -1,0 +1,69 @@
+INFO     util.usr_log:basepage.py:28 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:54 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:113 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:350 查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+INFO     util.usr_log:basepage.py:87 等待元素 login_phone_parent 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:46:53.790275，结束等待时间点：2020-11-20 13:46:53.842278，等待时长为：0:00:00.052003
+INFO     util.usr_log:basepage.py:264 查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+INFO     util.usr_log:basepage.py:307 查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+INFO     util.usr_log:basepage.py:371 在 登录页面_输入手机号 值为 13544989573
+INFO     util.usr_log:basepage.py:350 查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+INFO     util.usr_log:basepage.py:87 等待元素 login_password_parent 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:46:54.260302，结束等待时间点：2020-11-20 13:46:54.287304，等待时长为：0:00:00.027002
+INFO     util.usr_log:basepage.py:264 查找 登录页面_查找密码输入框 中的元素 login_password_parent
+INFO     util.usr_log:basepage.py:307 查找 登录页面_查找密码输入框 中的元素 login_password_children
+INFO     util.usr_log:basepage.py:371 在 登录页面_输入密码 值为 111111
+INFO     util.usr_log:basepage.py:87 等待元素 login_button 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:46:54.545318，结束等待时间点：2020-11-20 13:46:54.585321，等待时长为：0:00:00.040003
+INFO     util.usr_log:basepage.py:191 查找 登录页面_点击登录按钮 中的元素 login_button
+INFO     util.usr_log:basepage.py:386 点击 登录页面_点击登录按钮  中的元素 login_button
+INFO     util.usr_log:basepage.py:87 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:46:56.755445，结束等待时间点：2020-11-20 13:46:56.838449，等待时长为：0:00:00.083004
+INFO     util.usr_log:basepage.py:191 查找 搜索框_输入搜索内容 中的元素 search_input
+INFO     util.usr_log:basepage.py:87 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:46:57.236472，结束等待时间点：2020-11-20 13:46:57.424483，等待时长为：0:00:00.188011
+INFO     util.usr_log:basepage.py:191 查找 搜索框_敲回车 中的元素 search_input
+INFO     util.usr_log:basepage.py:479 在 search_input 元素 搜索框_敲回车 
+INFO     util.usr_log:basepage.py:87 等待元素 first_pic 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:46:57.725500，结束等待时间点：2020-11-20 13:46:58.486544，等待时长为：0:00:00.761044
+INFO     util.usr_log:basepage.py:191 查找 商品列表页_跳转到详情页 中的元素 first_pic
+INFO     util.usr_log:basepage.py:386 点击 商品列表页_跳转到详情页  中的元素 first_pic
+INFO     util.usr_log:basepage.py:87 等待元素 add_cart_button 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:46:59.285589，结束等待时间点：2020-11-20 13:46:59.703613，等待时长为：0:00:00.418024
+INFO     util.usr_log:basepage.py:191 查找 商品详情页_添加到购物车 中的元素 add_cart_button
+INFO     util.usr_log:basepage.py:386 点击 商品详情页_添加到购物车  中的元素 add_cart_button
+INFO     util.usr_log:basepage.py:87 等待元素 cart_button 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:47:00.956685，结束等待时间点：2020-11-20 13:47:01.013688，等待时长为：0:00:00.057003
+INFO     util.usr_log:basepage.py:87 等待元素 cart_button 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:47:01.017688，结束等待时间点：2020-11-20 13:47:01.053691，等待时长为：0:00:00.036003
+INFO     util.usr_log:basepage.py:191 查找 首页_进入到购物车 中的元素 cart_button
+INFO     util.usr_log:basepage.py:386 点击 首页_进入到购物车  中的元素 cart_button
+INFO     util.usr_log:basepage.py:87 等待元素 e-commerce-checkbox 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:47:01.393710，结束等待时间点：2020-11-20 13:47:02.077749，等待时长为：0:00:00.684039
+INFO     util.usr_log:basepage.py:191 查找 购物车页面_勾选电商商品 中的元素 e-commerce-checkbox
+INFO     util.usr_log:basepage.py:386 点击 购物车页面_勾选电商商品  中的元素 e-commerce-checkbox
+INFO     util.usr_log:basepage.py:87 等待元素 remove_button 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:47:02.227758，结束等待时间点：2020-11-20 13:47:02.295762，等待时长为：0:00:00.068004
+INFO     util.usr_log:basepage.py:191 查找 购物车页面_删除电商商品 中的元素 remove_button
+INFO     util.usr_log:basepage.py:386 点击 购物车页面_删除电商商品  中的元素 remove_button
+INFO     util.usr_log:basepage.py:87 等待元素 confirm_button 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:47:02.549776，结束等待时间点：2020-11-20 13:47:02.687784，等待时长为：0:00:00.138008
+INFO     util.usr_log:basepage.py:87 等待元素 confirm_button 可见。
+INFO     util.usr_log:basepage.py:97 开始等待时间点：2020-11-20 13:47:02.699785，结束等待时间点：2020-11-20 13:47:02.860794，等待时长为：0:00:00.161009
+INFO     util.usr_log:basepage.py:191 查找 购物车页面_点击删除确认按钮 中的元素 confirm_button
+INFO     util.usr_log:basepage.py:386 点击 购物车页面_点击删除确认按钮  中的元素 confirm_button
+INFO     util.usr_log:basepage.py:228 查找 购物车页面_查找已删除的商品 中的元素 has_goods
+ERROR    util.usr_log:basepage.py:248 确实没没找到元素
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 245, in has_element
+    element = self.driver.find_element_by_xpath(value)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(), "{}")]"}
+  (Session info: chrome=84.0.4147.105)

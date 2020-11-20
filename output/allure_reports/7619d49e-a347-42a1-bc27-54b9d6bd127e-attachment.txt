@@ -1,0 +1,9 @@
+INFO     util.usr_log:basepage.py:26 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:52 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:111 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:85 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 18:39:11.862330，结束等待时间点：2020-08-13 18:39:11.934334，等待时长为：0:00:00.072004
+INFO     util.usr_log:basepage.py:189 查找 搜索框_输入搜索内容 中的元素 search_input
+INFO     util.usr_log:basepage.py:85 等待元素 search_input 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 18:39:12.528368，结束等待时间点：2020-08-13 18:39:12.568370，等待时长为：0:00:00.040002
+INFO     util.usr_log:basepage.py:189 查找 搜索框_敲回车 中的元素 search_input

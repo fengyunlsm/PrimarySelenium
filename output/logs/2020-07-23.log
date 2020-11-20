@@ -1,0 +1,476 @@
+2020-07-23 15:37:51,422 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 15:37:55,871 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/user/newlogin
+2020-07-23 15:38:00,357 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边栏选择 中的第 0 元素 sidebar
+2020-07-23 15:38:00,358 basepage.py--> find_list_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 260, in find_list_element
+    elements = self.find_elements(info)
+TypeError: find_elements() missing 1 required positional argument: 'img_doc'
+2020-07-23 15:40:51,312 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 15:40:55,246 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 15:41:00,683 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边栏选择 中的第 0 元素 sidebar
+2020-07-23 15:41:00,683 basepage.py--> find_list_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 260, in find_list_element
+    elements = self.find_elements(info)
+TypeError: find_elements() missing 1 required positional argument: 'img_doc'
+2020-07-23 15:42:39,010 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 15:42:42,203 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 15:42:46,115 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边栏选择 中的第 0 元素 sidebar
+2020-07-23 15:42:46,115 basepage.py--> find_list_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 260, in find_list_element
+    elements = self.find_elements(info)
+TypeError: find_elements() missing 1 required positional argument: 'img_doc'
+2020-07-23 15:42:46,116 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 15:47:13,532 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 15:47:16,873 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 15:47:20,506 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边栏选择 中的第 0 元素 sidebar
+2020-07-23 15:47:20,506 basepage.py--> find_list_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 260, in find_list_element
+    elements = self.find_elements(info, img_doc)
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 199, in find_elements
+    self.loger.info("查找 {} 中的元素 {}".format(img_doc. info))
+AttributeError: 'str' object has no attribute 'info'
+2020-07-23 15:47:20,507 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 15:48:38,552 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 15:48:41,849 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 15:48:45,531 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边栏选择 中的第 0 元素 sidebar
+2020-07-23 15:48:45,531 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边栏选择 中的元素 sidebar
+2020-07-23 15:48:45,582 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 16:05:06,739 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 16:05:09,828 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 16:05:13,007 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边栏选择 中的第 0 元素 sidebar
+2020-07-23 16:05:13,007 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边栏选择 中的元素 sidebar
+2020-07-23 16:05:13,172 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 16:05:32,196 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 16:05:35,298 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 16:05:38,847 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边栏选择 中的第 0 元素 sidebar
+2020-07-23 16:05:38,847 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边栏选择 中的元素 sidebar
+2020-07-23 16:05:38,905 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 18:33:19,479 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:33:22,570 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:33:25,087 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 18:33:29,379 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:33:29,379 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 sidebar 元素 sidebar
+2020-07-23 18:33:29,382 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:33:29,677 basepage.py--> find_list_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 284, in find_list_element
+    if len(elements) < index:
+TypeError: '<' not supported between instances of 'int' and 'str'
+2020-07-23 18:34:59,363 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:35:03,142 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:36:54,068 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:36:57,680 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:37:00,396 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 18:37:04,699 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:37:04,700 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 sidebar 元素 sidebar
+2020-07-23 18:37:04,720 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:37:04,970 basepage.py--> find_list_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 284, in find_list_element
+    if len(elements) < int(index):
+ValueError: invalid literal for int() with base 10: 'sidebar'
+2020-07-23 18:39:09,244 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:39:13,222 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:39:56,855 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:40:00,349 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:40:02,631 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 18:40:06,874 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:40:06,877 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 18:40:06,880 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:40:07,192 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 18:40:07,217 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 269, in find_level_element
+    return self.element_isdisplay(node_element)
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 161, in element_isdisplay
+    flag = element.is_displayed()
+AttributeError: 'list' object has no attribute 'is_displayed'
+2020-07-23 18:41:54,539 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:41:58,865 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:42:20,257 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 18:42:24,455 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:42:24,455 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 18:42:24,456 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:42:24,667 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 18:42:24,682 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 264, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 18:48:03,532 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:48:07,036 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:48:10,142 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 18:48:14,346 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:48:14,346 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 18:48:14,369 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:48:14,778 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 18:48:14,818 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 265, in find_level_element
+    node_element = node_element[child_index]
+IndexError: list index out of range
+2020-07-23 18:56:00,361 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:56:05,068 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:56:08,081 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 18:56:12,310 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:56:12,310 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 18:56:12,311 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:56:12,561 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 18:56:12,561 basepage.py--> find_level_element 20: INFO ----->child_index: sidebar_selection
+2020-07-23 18:56:12,582 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 266, in find_level_element
+    node_element = node_element[child_index]
+IndexError: list index out of range
+2020-07-23 18:59:19,352 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 18:59:22,886 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 18:59:25,837 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 18:59:30,135 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:59:30,136 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 18:59:30,137 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 18:59:30,426 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 18:59:30,427 basepage.py--> find_level_element 20: INFO ----->child_index: 1
+2020-07-23 18:59:30,450 basepage.py--> find_level_element 20: INFO ----->child_node: []
+2020-07-23 18:59:30,450 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 267, in find_level_element
+    node_element = node_element[child_index]
+IndexError: list index out of range
+2020-07-23 18:59:30,841 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image/2020-07-23/首页_侧边选择_2020-07-23 18_59_30.png
+2020-07-23 19:02:37,435 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:02:41,554 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:02:44,449 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:02:48,648 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:02:48,648 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:02:48,649 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:02:48,983 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:02:48,983 basepage.py--> find_level_element 20: INFO ----->child_index: 1
+2020-07-23 19:02:49,055 basepage.py--> find_level_element 20: INFO ----->child_node: []
+2020-07-23 19:02:49,055 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 268, in find_level_element
+    node_element = node_element[child_index]
+IndexError: list index out of range
+2020-07-23 19:02:49,504 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image/2020-07-23/首页_侧边选择_2020-07-23 19_02_49.png
+2020-07-23 19:05:22,743 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:05:25,883 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:05:28,946 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:05:33,142 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:05:33,143 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:05:33,144 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:05:33,397 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:05:33,417 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 265, in find_level_element
+    node_element = node_element[child_index]
+TypeError: 'WebElement' object is not subscriptable
+2020-07-23 19:05:33,797 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image/2020-07-23/首页_侧边选择_2020-07-23 19_05_33.png
+2020-07-23 19:11:16,868 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:11:22,902 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:11:26,409 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:11:30,673 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:11:30,674 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:11:30,675 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:11:30,802 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:12:37,722 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:12:40,832 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:13:01,235 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:13:05,428 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:13:05,429 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:13:05,430 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:13:05,714 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:14:24,315 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:14:30,225 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:14:33,907 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:14:38,049 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:14:38,050 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:14:38,052 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:14:38,294 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:15:21,402 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:15:25,286 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:15:27,964 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:15:32,879 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:15:32,879 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:15:33,141 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:15:33,394 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:15:33,483 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 19:16:19,461 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:16:23,094 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:16:25,861 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:16:30,432 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:16:30,433 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:16:30,445 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:16:30,559 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:16:30,598 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 19:17:01,525 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:17:04,975 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:17:07,603 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:17:12,437 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:17:12,437 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:17:12,438 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:17:12,627 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:17:12,947 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 268, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 19:17:13,489 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image\2020-07-23\首页_侧边选择_2020-07-23 19_17_12.png
+2020-07-23 19:17:13,489 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 19:24:24,877 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:24:28,427 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:24:31,229 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:24:35,516 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:24:35,516 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:24:35,517 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:24:35,794 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:24:35,817 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 270, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 19:28:05,617 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:28:11,947 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:28:16,536 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:28:20,751 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:28:20,751 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:28:20,752 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:28:20,818 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:28:20,852 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 270, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 19:29:19,498 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:29:22,669 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:29:25,643 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:29:29,891 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:29:29,892 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:29:29,892 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:29:30,251 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:29:30,274 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 269, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 19:29:30,685 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image\2020-07-23\首页_侧边选择_2020-07-23 19_29_30.png
+2020-07-23 19:29:30,686 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 19:30:49,566 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:30:52,915 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:30:55,612 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:30:59,938 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:30:59,938 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:30:59,939 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:31:00,196 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:31:00,231 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 269, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 19:31:00,606 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output\image\2020-07-23\首页_侧边选择_2020-07-23 19_31_00.png
+2020-07-23 19:31:00,606 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 19:32:53,572 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:32:56,767 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:32:59,748 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:33:03,900 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:33:03,901 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:33:03,901 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:33:04,064 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:33:04,084 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 269, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 19:33:04,086 basepage.py--> save_screen 40: ERROR ----->创建文件夹失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 269, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 135, in save_screen
+    self.logger.info("开始创建文件夹, 名为{}".format(tody))
+AttributeError: 'SeleniumDriver' object has no attribute 'logger'
+2020-07-23 19:33:04,455 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image\2020-07-23\首页_侧边选择_2020-07-23 19_33_04.png
+2020-07-23 19:33:04,455 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 19:34:41,937 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:34:45,006 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:34:47,500 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:34:51,922 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:34:51,922 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:34:51,932 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:34:52,087 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:34:52,106 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 269, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 19:34:52,108 basepage.py--> save_screen 20: INFO ----->开始创建文件夹, 名为d:\pyProject\PrimarySelenium\output/image\2020-07-23
+2020-07-23 19:34:52,518 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image\2020-07-23\首页_侧边选择_2020-07-23 19_34_52.png
+2020-07-23 19:34:52,518 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 19:36:16,652 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 19:36:19,654 basepage.py--> get_url 20: INFO ----->开始打开地址 https://www.imooc.com/
+2020-07-23 19:36:22,739 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 19:36:27,009 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:36:27,010 basepage.py--> find_list_element 20: INFO ----->查找 首页_侧边选择 中的第 0 元素 sidebar
+2020-07-23 19:36:27,010 basepage.py--> find_elements 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar
+2020-07-23 19:36:27,232 basepage.py--> find_level_element 20: INFO ----->查找 首页_侧边选择 中的元素 sidebar_selection
+2020-07-23 19:36:27,258 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 269, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-07-23 19:36:27,634 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image\2020-07-23\首页_侧边选择_2020-07-23 19_36_27.png
+2020-07-23 19:36:27,634 basepage.py--> move_to_element 20: INFO ----->鼠标移动到上方
+2020-07-23 20:15:06,474 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:15:10,700 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:15:13,403 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:17:18,334 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:17:22,654 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:17:25,655 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:19:48,126 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:19:51,570 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:19:54,561 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:19:57,728 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:19:57,820 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:19:58,270 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:19:58,306 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:19:58,484 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:20:46,814 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:20:50,656 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:20:53,139 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:20:56,320 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:20:56,381 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:20:56,983 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:20:57,028 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:20:57,296 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:28:16,169 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:28:19,588 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:28:21,655 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:28:24,787 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:28:24,827 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:28:25,177 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:28:25,216 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:28:25,388 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:28:25,424 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 20:29:30,683 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:29:34,135 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:29:36,279 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:29:39,407 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:29:39,462 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:29:39,805 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:29:39,850 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:29:40,050 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:29:40,082 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 20:30:45,496 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:30:49,493 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:30:52,773 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:30:55,913 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:30:55,964 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:30:56,368 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:30:56,458 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:30:56,668 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:30:56,703 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 20:31:56,400 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:31:59,638 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:32:02,140 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:32:05,347 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:32:05,413 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:32:05,841 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:32:05,884 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:32:06,120 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:32:06,171 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 20:32:08,345 basepage.py--> get_element 20: INFO ----->查找 问答_填写 中的元素 text_box
+2020-07-23 20:32:08,447 basepage.py--> get_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "d:/pyProject/PrimarySelenium/base/basepage.py", line 193, in get_element
+    element = self.driver.find_element_by_xpath(value)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"p"}
+  (Session info: chrome=84.0.4147.89)
+
+2020-07-23 20:32:08,823 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：d:\pyProject\PrimarySelenium\output/image\2020-07-23\_2020-07-23 20_32_08.png
+2020-07-23 20:37:41,087 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:37:44,246 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:37:47,187 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:37:50,338 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:37:50,407 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:37:50,873 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:37:50,914 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:37:51,120 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:37:51,163 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 20:37:54,018 basepage.py--> get_element 20: INFO ----->查找 问答_填写 中的元素 text_box
+2020-07-23 20:39:16,534 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:39:19,873 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:39:23,580 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:39:26,861 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:39:26,977 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:39:27,632 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:39:27,688 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:39:27,928 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:39:27,986 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 20:39:30,663 basepage.py--> get_element 20: INFO ----->查找 问答_填写 中的元素 text_box
+2020-07-23 20:45:09,981 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 20:45:13,606 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 20:45:16,225 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 20:45:19,372 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 20:45:19,503 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 20:45:20,060 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 20:45:20,163 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 20:45:20,509 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 20:45:20,570 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 20:45:23,318 basepage.py--> get_element 20: INFO ----->查找 问答_填写 中的元素 text_box
+2020-07-23 21:04:00,120 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 21:04:04,896 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 21:04:08,045 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 21:04:11,226 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 21:04:11,314 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 21:04:12,203 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 21:04:12,252 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 21:04:12,613 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 21:04:12,667 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 21:04:16,498 basepage.py--> get_element 20: INFO ----->查找 问答_填写 中的元素 text_box
+2020-07-23 21:04:53,177 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 21:04:57,200 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 21:04:59,824 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 21:05:02,992 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 21:05:03,160 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 21:05:04,234 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 21:05:04,303 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 21:05:04,627 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 21:05:04,836 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 21:05:07,794 basepage.py--> get_element 20: INFO ----->查找 问答_填写 中的元素 text_box
+2020-07-23 21:05:27,388 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 21:05:31,158 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 21:05:33,885 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 21:05:37,162 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 21:05:37,244 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 21:05:37,673 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 21:05:37,718 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 21:05:37,914 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 21:05:37,965 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 21:05:40,596 basepage.py--> get_element 20: INFO ----->查找 问答_填写 中的元素 text_box
+2020-07-23 21:05:41,928 basepage.py--> find_elements 20: INFO ----->查找 问答_选择标签 中的元素 tag
+2020-07-23 21:06:02,608 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-07-23 21:06:05,861 basepage.py--> get_url 20: INFO ----->开始打开地址 http://www.imooc.com/wenda/save
+2020-07-23 21:06:08,415 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-07-23 21:06:11,539 basepage.py--> get_element 20: INFO ----->查找 登录_查找用户名 中的元素 username
+2020-07-23 21:06:11,583 basepage.py--> get_element 20: INFO ----->查找 登录_输入用户名 中的元素 username
+2020-07-23 21:06:11,940 basepage.py--> get_element 20: INFO ----->查找 登录_查找密码 中的元素 password
+2020-07-23 21:06:11,979 basepage.py--> get_element 20: INFO ----->查找 登录_输入密码 中的元素 password
+2020-07-23 21:06:12,271 basepage.py--> get_element 20: INFO ----->查找 登录_点击按钮 中的元素 login_button
+2020-07-23 21:06:12,305 basepage.py--> click_element 20: INFO ----->点击 登录_点击按钮  中的元素 login_button
+2020-07-23 21:06:14,799 basepage.py--> get_element 20: INFO ----->查找 问答_填写 中的元素 text_box
+2020-07-23 21:06:15,565 basepage.py--> find_elements 20: INFO ----->查找 问答_选择标签 中的元素 tag

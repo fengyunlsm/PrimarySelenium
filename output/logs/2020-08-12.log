@@ -1,0 +1,146 @@
+2020-08-12 17:59:48,986 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 17:59:52,704 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:00:15,202 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:00:18,446 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:00:18,446 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:00:18,447 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:00:18,559 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:00:18,576 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 271, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-08-12 18:00:18,578 basepage.py--> save_screen 20: INFO ----->开始创建文件夹, 名为D:\pyProject\PrimarySelenium\output/image\2020-08-12
+2020-08-12 18:00:18,892 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：D:\pyProject\PrimarySelenium\output/image\2020-08-12\登录页面_查找手机号输入框_2020-08-12 18_00_18.png
+2020-08-12 18:00:29,207 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 18:00:32,543 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:00:34,026 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:00:37,190 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:00:37,190 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:00:37,190 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:00:37,295 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:00:37,314 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 271, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-08-12 18:00:37,660 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：D:\pyProject\PrimarySelenium\output/image\2020-08-12\登录页面_查找手机号输入框_2020-08-12 18_00_37.png
+2020-08-12 18:00:45,906 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 18:00:49,346 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:00:51,003 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:00:54,419 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:00:54,419 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:00:54,419 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:00:54,550 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:00:54,569 basepage.py--> find_level_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 271, in find_level_element
+    node_element = element.find_elements_by_class_name(child_node)[child_index]
+IndexError: list index out of range
+2020-08-12 18:00:54,910 basepage.py--> save_screen 20: INFO ----->网页截图成功。图片存储在：D:\pyProject\PrimarySelenium\output/image\2020-08-12\登录页面_查找手机号输入框_2020-08-12 18_00_54.png
+2020-08-12 18:17:25,696 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 18:17:28,817 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:17:30,273 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:17:33,531 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:17:33,531 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:17:33,533 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:17:33,646 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:22:08,689 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 18:22:11,718 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:22:13,132 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:22:16,281 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:22:16,281 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:22:16,368 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:26:27,074 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 18:26:31,056 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:26:34,055 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:26:37,232 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:26:37,232 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:26:37,350 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:26:37,382 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-12 18:27:38,128 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 18:27:42,019 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:27:44,513 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:27:47,828 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:27:47,828 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:27:47,926 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:27:47,962 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-12 18:27:48,211 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 元素 login_password_parent
+2020-08-12 18:27:48,212 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-12 18:27:48,281 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-12 18:27:48,321 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 6329017abc
+2020-08-12 18:27:48,522 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-12 18:27:48,601 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-12 18:28:45,197 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 18:28:48,485 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:28:49,928 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:28:53,126 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:28:53,126 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:28:53,254 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:28:53,288 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-12 18:28:53,534 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 元素 login_password_parent
+2020-08-12 18:28:53,535 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-12 18:28:53,600 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-12 18:28:53,641 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 111111
+2020-08-12 18:28:53,767 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-12 18:28:53,804 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-12 18:29:59,714 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 18:30:02,962 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 18:30:04,856 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 18:30:08,008 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 18:30:08,008 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 18:30:08,105 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 18:30:08,135 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-12 18:30:08,368 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 元素 login_password_parent
+2020-08-12 18:30:08,368 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-12 18:30:08,430 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-12 18:30:08,469 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-12 18:30:08,652 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-12 18:30:08,699 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-12 19:37:34,208 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 19:37:38,984 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 19:37:42,145 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 19:37:45,313 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 元素 login_phone_parent
+2020-08-12 19:37:45,315 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-12 19:37:45,485 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-12 19:37:45,541 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-12 19:37:46,069 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 元素 login_password_parent
+2020-08-12 19:37:46,070 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-12 19:37:46,225 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-12 19:37:46,282 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-12 19:37:46,689 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-12 19:37:46,847 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-12 19:37:47,008 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 元素 span
+2020-08-12 19:37:47,009 basepage.py--> find_list_element 40: ERROR ----->查找元素失败
+Traceback (most recent call last):
+  File "D:\python\lib\configparser.py", line 789, in get
+    value = d[option]
+  File "D:\python\lib\collections\__init__.py", line 898, in __getitem__
+    return self.__missing__(key)            # support subclasses that define __missing__
+  File "D:\python\lib\collections\__init__.py", line 890, in __missing__
+    raise KeyError(key)
+KeyError: 'span'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 288, in find_list_element
+    elements = self.find_elements(info, img_doc)
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 213, in find_elements
+    by, value = self.read_ini(info)
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 352, in read_ini
+    data = read_ini.get_value(self.node, info)
+  File "D:\pyProject\PrimarySelenium\util\read_ini.py", line 14, in get_value
+    return self.data.get(type, key)
+  File "D:\python\lib\configparser.py", line 792, in get
+    raise NoOptionError(option, section)
+configparser.NoOptionError: No option 'span' in section: 'login'
+2020-08-12 19:37:54,314 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 19:37:58,361 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 19:38:01,030 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 19:38:06,524 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 19:38:10,426 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 19:38:12,983 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-12 19:38:18,562 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-12 19:38:22,543 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-12 19:38:26,710 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化

@@ -1,0 +1,22 @@
+INFO     util.usr_log:basepage.py:28 {'开始打开chrome浏览器'}
+ERROR    util.usr_log:basepage.py:49 打开浏览器失败, 请检查是否是driver版本不正确
+Traceback (most recent call last):
+  File "d:\pyProject\PrimarySelenium\base\basepage.py", line 34, in open_window
+    driver = webdriver.Chrome(options=options)
+  File "D:\python\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: unable to discover open window in chrome
+  (Session info: chrome=84.0.4147.105)
+
+INFO     util.usr_log:basepage.py:54 开始打开地址 http://eshop.tslj.cn/#/login
+ERROR    util.usr_log:basepage.py:63 打开地址失败
+NoneType: None
+INFO     util.usr_log:basepage.py:113 对窗口的操作-最大化

@@ -1,0 +1,396 @@
+2020-08-14 17:26:09,227 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 17:26:12,324 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 17:26:13,737 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 17:26:17,037 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 17:26:17,038 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 17:26:17,110 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:26:17.041843，结束等待时间点：2020-08-14 17:26:17.110847，等待时长为：0:00:00.069004
+2020-08-14 17:26:17,111 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 17:26:17,203 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 17:26:17,240 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 17:26:17,451 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 17:26:17,452 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 17:26:17,478 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:26:17.452866，结束等待时间点：2020-08-14 17:26:17.478868，等待时长为：0:00:00.026002
+2020-08-14 17:26:17,479 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 17:26:17,539 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 17:26:17,574 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 17:26:17,729 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 17:26:17,780 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:26:17.730882，结束等待时间点：2020-08-14 17:26:17.780885，等待时长为：0:00:00.050003
+2020-08-14 17:26:17,780 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 17:26:17,816 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 17:27:30,470 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 17:27:33,713 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 17:27:35,262 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 17:27:38,444 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 17:27:38,445 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 17:27:38,509 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:27:38.446499，结束等待时间点：2020-08-14 17:27:38.508502，等待时长为：0:00:00.062003
+2020-08-14 17:27:38,514 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 17:27:38,598 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 17:27:38,634 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 17:27:38,840 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 17:27:38,840 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 17:27:38,866 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:27:38.841521，结束等待时间点：2020-08-14 17:27:38.866523，等待时长为：0:00:00.025002
+2020-08-14 17:27:38,867 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 17:27:38,929 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 17:27:38,966 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 17:27:39,083 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 17:27:39,116 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:27:39.083535，结束等待时间点：2020-08-14 17:27:39.116537，等待时长为：0:00:00.033002
+2020-08-14 17:27:39,116 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 17:27:39,153 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 17:50:30,931 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 17:50:34,129 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 17:50:35,815 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 17:50:39,003 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 17:50:39,003 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 17:50:39,094 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:50:39.005462，结束等待时间点：2020-08-14 17:50:39.093467，等待时长为：0:00:00.088005
+2020-08-14 17:50:39,095 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 17:50:39,179 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 17:50:39,212 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 17:50:39,417 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 17:50:39,418 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 17:50:39,444 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:50:39.418486，结束等待时间点：2020-08-14 17:50:39.444487，等待时长为：0:00:00.026001
+2020-08-14 17:50:39,446 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 17:50:39,509 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 17:50:39,539 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 17:50:39,654 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 17:50:39,694 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:50:39.654499，结束等待时间点：2020-08-14 17:50:39.694502，等待时长为：0:00:00.040003
+2020-08-14 17:50:39,694 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 17:50:39,720 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 17:50:39,791 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 17:50:40,435 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:50:39.792507，结束等待时间点：2020-08-14 17:50:40.435544，等待时长为：0:00:00.643037
+2020-08-14 17:50:40,435 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 17:50:40,436 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 17:50:40,606 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:50:40.437544，结束等待时间点：2020-08-14 17:50:40.606554，等待时长为：0:00:00.169010
+2020-08-14 17:50:40,612 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 17:53:50,972 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 17:53:54,134 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 17:53:55,590 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 17:53:58,780 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 17:53:58,781 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 17:53:58,839 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:53:58.786889，结束等待时间点：2020-08-14 17:53:58.839892，等待时长为：0:00:00.053003
+2020-08-14 17:53:58,840 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 17:53:58,910 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 17:53:58,956 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 17:53:59,217 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 17:53:59,218 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 17:53:59,242 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:53:59.218914，结束等待时间点：2020-08-14 17:53:59.242915，等待时长为：0:00:00.024001
+2020-08-14 17:53:59,243 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 17:53:59,303 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 17:53:59,333 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 17:53:59,448 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 17:53:59,490 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:53:59.448927，结束等待时间点：2020-08-14 17:53:59.490929，等待时长为：0:00:00.042002
+2020-08-14 17:53:59,490 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 17:53:59,517 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 17:53:59,603 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 17:54:00,242 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:53:59.604936，结束等待时间点：2020-08-14 17:54:00.242972，等待时长为：0:00:00.638036
+2020-08-14 17:54:00,243 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 17:54:00,243 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 17:54:00,336 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:54:00.244972，结束等待时间点：2020-08-14 17:54:00.336978，等待时长为：0:00:00.092006
+2020-08-14 17:54:00,340 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 17:54:04,202 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 17:54:07,409 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 17:54:08,762 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 17:56:12,300 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 17:56:15,420 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 17:56:18,429 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 17:56:21,655 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 17:56:21,655 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 17:56:21,703 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:56:21.656061，结束等待时间点：2020-08-14 17:56:21.703063，等待时长为：0:00:00.047002
+2020-08-14 17:56:21,704 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 17:56:21,880 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 17:56:21,931 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 17:56:22,147 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 17:56:22,148 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 17:56:22,178 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:56:22.149089，结束等待时间点：2020-08-14 17:56:22.178090，等待时长为：0:00:00.029001
+2020-08-14 17:56:22,179 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 17:56:22,254 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 17:56:22,289 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 17:56:22,435 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 17:56:22,525 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:56:22.436105，结束等待时间点：2020-08-14 17:56:22.525110，等待时长为：0:00:00.089005
+2020-08-14 17:56:22,525 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 17:56:22,592 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 17:56:22,674 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 17:56:23,478 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:56:22.675119，结束等待时间点：2020-08-14 17:56:23.478165，等待时长为：0:00:00.803046
+2020-08-14 17:56:23,478 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 17:56:23,479 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 17:56:23,593 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 17:56:23.479165，结束等待时间点：2020-08-14 17:56:23.593171，等待时长为：0:00:00.114006
+2020-08-14 17:56:23,595 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 17:56:27,240 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 17:56:30,413 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 17:56:31,926 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 17:56:35,098 basepage.py--> set_cookies 20: INFO ----->本次登录的cookie： [{'domain': 'eshop.tslj.cn', 'expiry': 1597485377, 'httpOnly': False, 'name': 'pageViewNum', 'path': '/', 'secure': False, 'value': '1'}, {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': 'e6148e25-a128-417a-9b2d-fc88679f5cdd'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597400777, 'httpOnly': False, 'name': 'qimo_seosource_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': '%E7%AB%99%E5%86%85'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597485377, 'httpOnly': False, 'name': 'accessId', 'path': '/', 'secure': False, 'value': '9c912900-5500-11e8-aeee-f504f23baa26'}, {'domain': 'eshop.tslj.cn', 'httpOnly': False, 'name': 'href', 'path': '/', 'secure': False, 'value': 'http%3A%2F%2Feshop.tslj.cn%2F%23%2Flogin'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597400777, 'httpOnly': False, 'name': 'qimo_seokeywords_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': ''}] 
+2020-08-14 18:02:22,470 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:02:25,465 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:02:26,816 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:02:30,010 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 18:02:30,011 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 18:02:30,076 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:02:30.012129，结束等待时间点：2020-08-14 18:02:30.076133，等待时长为：0:00:00.064004
+2020-08-14 18:02:30,078 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 18:02:30,164 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 18:02:30,197 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 18:02:30,426 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 18:02:30,427 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 18:02:30,464 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:02:30.428153，结束等待时间点：2020-08-14 18:02:30.464155，等待时长为：0:00:00.036002
+2020-08-14 18:02:30,465 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 18:02:30,527 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 18:02:30,565 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 18:02:30,685 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 18:02:30,718 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:02:30.685168，结束等待时间点：2020-08-14 18:02:30.718170，等待时长为：0:00:00.033002
+2020-08-14 18:02:30,719 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 18:02:30,750 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 18:02:30,825 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 18:02:31,648 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:02:30.826176，结束等待时间点：2020-08-14 18:02:31.648223，等待时长为：0:00:00.822047
+2020-08-14 18:02:31,649 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 18:02:31,650 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 18:02:31,840 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:02:31.653223，结束等待时间点：2020-08-14 18:02:31.840234，等待时长为：0:00:00.187011
+2020-08-14 18:02:31,845 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 18:02:35,600 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:02:39,372 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:02:40,886 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:02:44,083 basepage.py--> set_cookies 20: INFO ----->本次登录的cookie： [{'domain': 'eshop.tslj.cn', 'expiry': 1597485746, 'httpOnly': False, 'name': 'pageViewNum', 'path': '/', 'secure': False, 'value': '1'}, {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': '4f1960a7-b3e8-40cf-b5b4-a12b2b8dc320'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597401146, 'httpOnly': False, 'name': 'qimo_seosource_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': '%E7%AB%99%E5%86%85'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597485746, 'httpOnly': False, 'name': 'accessId', 'path': '/', 'secure': False, 'value': '9c912900-5500-11e8-aeee-f504f23baa26'}, {'domain': 'eshop.tslj.cn', 'httpOnly': False, 'name': 'href', 'path': '/', 'secure': False, 'value': 'http%3A%2F%2Feshop.tslj.cn%2F%23%2Flogin'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597401146, 'httpOnly': False, 'name': 'qimo_seokeywords_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': ''}] 
+2020-08-14 18:11:15,824 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:11:18,870 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:11:20,497 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:11:23,669 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 18:11:23,669 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 18:11:23,723 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:11:23.670653，结束等待时间点：2020-08-14 18:11:23.723656，等待时长为：0:00:00.053003
+2020-08-14 18:11:23,734 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 18:11:23,823 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 18:11:23,856 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 18:11:24,073 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 18:11:24,073 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 18:11:24,097 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:11:24.073676，结束等待时间点：2020-08-14 18:11:24.097677，等待时长为：0:00:00.024001
+2020-08-14 18:11:24,098 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 18:11:24,163 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 18:11:24,194 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 18:11:24,327 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 18:11:24,369 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:11:24.328691，结束等待时间点：2020-08-14 18:11:24.369693，等待时长为：0:00:00.041002
+2020-08-14 18:11:24,370 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 18:11:24,412 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 18:11:24,509 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 18:11:25,195 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:11:24.509701，结束等待时间点：2020-08-14 18:11:25.195740，等待时长为：0:00:00.686039
+2020-08-14 18:11:25,196 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 18:11:25,196 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 18:11:25,309 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:11:25.197740，结束等待时间点：2020-08-14 18:11:25.309747，等待时长为：0:00:00.112007
+2020-08-14 18:11:25,312 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 18:11:29,157 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:11:32,288 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:11:33,847 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:11:37,104 basepage.py--> set_cookies 20: INFO ----->本次登录的cookie： [{'domain': 'eshop.tslj.cn', 'expiry': 1597486279, 'httpOnly': False, 'name': 'pageViewNum', 'path': '/', 'secure': False, 'value': '1'}, {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': '62a6b902-00d5-442c-92a4-a791ba51568f'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597401679, 'httpOnly': False, 'name': 'qimo_seosource_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': '%E7%AB%99%E5%86%85'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597486279, 'httpOnly': False, 'name': 'accessId', 'path': '/', 'secure': False, 'value': '9c912900-5500-11e8-aeee-f504f23baa26'}, {'domain': 'eshop.tslj.cn', 'httpOnly': False, 'name': 'href', 'path': '/', 'secure': False, 'value': 'http%3A%2F%2Feshop.tslj.cn%2F%23%2Flogin'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597401679, 'httpOnly': False, 'name': 'qimo_seokeywords_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': ''}] 
+2020-08-14 18:16:51,689 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:16:55,729 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:16:57,557 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:17:00,737 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 18:17:00,739 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 18:17:00,812 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:17:00.747933，结束等待时间点：2020-08-14 18:17:00.811936，等待时长为：0:00:00.064003
+2020-08-14 18:17:00,813 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 18:17:00,881 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 18:17:00,911 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 18:17:01,117 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 18:17:01,117 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 18:17:01,143 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:17:01.118954，结束等待时间点：2020-08-14 18:17:01.143955，等待时长为：0:00:00.025001
+2020-08-14 18:17:01,146 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 18:17:01,203 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 18:17:01,233 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 18:17:01,349 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 18:17:01,398 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:17:01.350967，结束等待时间点：2020-08-14 18:17:01.398970，等待时长为：0:00:00.048003
+2020-08-14 18:17:01,398 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 18:17:01,433 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 18:17:01,519 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 18:17:02,240 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:17:01.520977，结束等待时间点：2020-08-14 18:17:02.240018，等待时长为：0:00:00.719041
+2020-08-14 18:17:02,241 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 18:17:02,241 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 18:17:02,487 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:17:02.252019，结束等待时间点：2020-08-14 18:17:02.487032，等待时长为：0:00:00.235013
+2020-08-14 18:17:02,488 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 18:17:06,362 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:17:09,309 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:17:10,655 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:17:54,364 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:17:57,578 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:17:59,002 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:18:02,145 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 18:18:02,145 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 18:18:02,185 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:02.145444，结束等待时间点：2020-08-14 18:18:02.185447，等待时长为：0:00:00.040003
+2020-08-14 18:18:02,186 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 18:18:02,266 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 18:18:02,305 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 18:18:02,534 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 18:18:02,535 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 18:18:02,590 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:02.535467，结束等待时间点：2020-08-14 18:18:02.589470，等待时长为：0:00:00.054003
+2020-08-14 18:18:02,591 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 18:18:02,646 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 18:18:02,676 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 18:18:02,798 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 18:18:02,861 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:02.801482，结束等待时间点：2020-08-14 18:18:02.861485，等待时长为：0:00:00.060003
+2020-08-14 18:18:02,862 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 18:18:02,905 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 18:18:03,005 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 18:18:03,744 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:03.008494，结束等待时间点：2020-08-14 18:18:03.743536，等待时长为：0:00:00.735042
+2020-08-14 18:18:03,745 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 18:18:03,746 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 18:18:03,926 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:03.750536，结束等待时间点：2020-08-14 18:18:03.926546，等待时长为：0:00:00.176010
+2020-08-14 18:18:03,937 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 18:18:07,739 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:18:10,812 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:18:12,168 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:18:15,343 basepage.py--> set_cookies 20: INFO ----->本次登录的cookie： {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': '54bf0f10-73b3-4862-bebe-d69201e819ea'} 
+2020-08-14 18:18:18,353 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 search_input 可见。
+2020-08-14 18:18:18,411 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:18.354371，结束等待时间点：2020-08-14 18:18:18.411375，等待时长为：0:00:00.057004
+2020-08-14 18:18:18,412 basepage.py--> get_element 20: INFO ----->查找 搜索框_输入搜索内容 中的元素 search_input
+2020-08-14 18:18:18,927 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 search_input 可见。
+2020-08-14 18:18:18,966 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:18.927404，结束等待时间点：2020-08-14 18:18:18.966406，等待时长为：0:00:00.039002
+2020-08-14 18:18:18,967 basepage.py--> get_element 20: INFO ----->查找 搜索框_敲回车 中的元素 search_input
+2020-08-14 18:18:19,001 basepage.py--> keyboard 20: INFO ----->在 search_input 元素 搜索框_敲回车 
+2020-08-14 18:18:19,188 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 first_pic 可见。
+2020-08-14 18:18:19,897 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:19.189419，结束等待时间点：2020-08-14 18:18:19.897460，等待时长为：0:00:00.708041
+2020-08-14 18:18:19,897 basepage.py--> get_element 20: INFO ----->查找 搜索页_查找第一张图片 中的元素 first_pic
+2020-08-14 18:18:19,946 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 first_pic 可见。
+2020-08-14 18:18:19,989 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:19.947463，结束等待时间点：2020-08-14 18:18:19.989465，等待时长为：0:00:00.042002
+2020-08-14 18:18:19,989 basepage.py--> get_element 20: INFO ----->查找 商品列表页_跳转到详情页 中的元素 first_pic
+2020-08-14 18:18:20,022 basepage.py--> click_element 20: INFO ----->点击 商品列表页_跳转到详情页  中的元素 first_pic
+2020-08-14 18:18:21,489 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 shop_name 可见。
+2020-08-14 18:18:21,533 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:18:21.490551，结束等待时间点：2020-08-14 18:18:21.533553，等待时长为：0:00:00.043002
+2020-08-14 18:18:21,534 basepage.py--> get_element 20: INFO ----->查找 商品详情页_查找商品名字 中的元素 shop_name
+2020-08-14 18:37:02,783 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:37:05,759 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:37:07,193 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:37:10,357 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 18:37:10,357 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 18:37:10,434 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:10.363119，结束等待时间点：2020-08-14 18:37:10.434123，等待时长为：0:00:00.071004
+2020-08-14 18:37:10,435 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 18:37:10,502 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 18:37:10,530 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 18:37:10,742 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 18:37:10,743 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 18:37:10,778 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:10.743140，结束等待时间点：2020-08-14 18:37:10.777142，等待时长为：0:00:00.034002
+2020-08-14 18:37:10,779 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 18:37:10,883 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 18:37:10,922 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 18:37:11,042 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 18:37:11,078 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:11.043158，结束等待时间点：2020-08-14 18:37:11.078160，等待时长为：0:00:00.035002
+2020-08-14 18:37:11,078 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 18:37:11,107 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 18:37:11,194 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 18:37:11,887 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:11.194166，结束等待时间点：2020-08-14 18:37:11.887206，等待时长为：0:00:00.693040
+2020-08-14 18:37:11,888 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 18:37:11,888 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 18:37:12,017 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:11.889206，结束等待时间点：2020-08-14 18:37:12.016213，等待时长为：0:00:00.127007
+2020-08-14 18:37:12,019 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 18:37:15,799 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:37:18,806 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:37:20,217 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:37:23,400 basepage.py--> set_cookies 20: INFO ----->本次登录的cookie： {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': '7359ff0c-3385-44be-b45c-ac703077adfb'} 
+2020-08-14 18:37:26,424 basepage.py--> set_cookies 20: INFO ----->确认是否保存cookies [{'domain': 'eshop.tslj.cn', 'expiry': 1597487826, 'httpOnly': False, 'name': 'pageViewNum', 'path': '/', 'secure': False, 'value': '1'}, {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': '7359ff0c-3385-44be-b45c-ac703077adfb'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597403226, 'httpOnly': False, 'name': 'qimo_seosource_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': '%E7%AB%99%E5%86%85'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597487826, 'httpOnly': False, 'name': 'accessId', 'path': '/', 'secure': False, 'value': '9c912900-5500-11e8-aeee-f504f23baa26'}, {'domain': 'eshop.tslj.cn', 'httpOnly': False, 'name': 'href', 'path': '/', 'secure': False, 'value': 'http%3A%2F%2Feshop.tslj.cn%2F%23%2Flogin'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597403226, 'httpOnly': False, 'name': 'qimo_seokeywords_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': ''}]
+2020-08-14 18:37:26,428 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 search_input 可见。
+2020-08-14 18:37:26,464 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:26.428038，结束等待时间点：2020-08-14 18:37:26.464040，等待时长为：0:00:00.036002
+2020-08-14 18:37:26,465 basepage.py--> get_element 20: INFO ----->查找 搜索框_输入搜索内容 中的元素 search_input
+2020-08-14 18:37:26,749 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 search_input 可见。
+2020-08-14 18:37:26,782 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:26.750056，结束等待时间点：2020-08-14 18:37:26.782058，等待时长为：0:00:00.032002
+2020-08-14 18:37:26,783 basepage.py--> get_element 20: INFO ----->查找 搜索框_敲回车 中的元素 search_input
+2020-08-14 18:37:26,809 basepage.py--> keyboard 20: INFO ----->在 search_input 元素 搜索框_敲回车 
+2020-08-14 18:37:27,079 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 first_pic 可见。
+2020-08-14 18:37:27,208 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:27.099076，结束等待时间点：2020-08-14 18:37:27.208082，等待时长为：0:00:00.109006
+2020-08-14 18:37:27,208 basepage.py--> get_element 20: INFO ----->查找 搜索页_查找第一张图片 中的元素 first_pic
+2020-08-14 18:37:27,252 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 first_pic 可见。
+2020-08-14 18:37:27,305 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:27.253085，结束等待时间点：2020-08-14 18:37:27.305088，等待时长为：0:00:00.052003
+2020-08-14 18:37:27,306 basepage.py--> get_element 20: INFO ----->查找 商品列表页_跳转到详情页 中的元素 first_pic
+2020-08-14 18:37:27,350 basepage.py--> click_element 20: INFO ----->点击 商品列表页_跳转到详情页  中的元素 first_pic
+2020-08-14 18:37:28,741 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 shop_name 可见。
+2020-08-14 18:37:28,781 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:37:28.741170，结束等待时间点：2020-08-14 18:37:28.781172，等待时长为：0:00:00.040002
+2020-08-14 18:37:28,781 basepage.py--> get_element 20: INFO ----->查找 商品详情页_查找商品名字 中的元素 shop_name
+2020-08-14 18:53:02,161 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:53:05,059 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:53:06,537 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:53:09,741 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 18:53:09,742 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 18:53:09,807 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:53:09.743992，结束等待时间点：2020-08-14 18:53:09.807996，等待时长为：0:00:00.064004
+2020-08-14 18:53:09,808 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 18:53:09,886 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 18:53:09,925 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 18:53:10,136 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 18:53:10,136 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 18:53:10,162 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:53:10.137015，结束等待时间点：2020-08-14 18:53:10.162016，等待时长为：0:00:00.025001
+2020-08-14 18:53:10,163 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 18:53:10,219 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 18:53:10,250 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 18:53:10,366 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 18:53:10,402 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:53:10.367028，结束等待时间点：2020-08-14 18:53:10.402030，等待时长为：0:00:00.035002
+2020-08-14 18:53:10,402 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 18:53:10,431 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 18:53:10,517 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 18:53:11,169 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:53:10.519036，结束等待时间点：2020-08-14 18:53:11.168074，等待时长为：0:00:00.649038
+2020-08-14 18:53:11,169 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 18:53:11,169 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 18:53:11,310 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:53:11.173074，结束等待时间点：2020-08-14 18:53:11.310082，等待时长为：0:00:00.137008
+2020-08-14 18:53:11,317 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 18:53:15,195 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:53:18,113 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:53:19,502 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:53:22,649 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/pd/129826705129922560
+2020-08-14 18:55:00,133 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:55:03,294 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:55:04,839 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:55:08,070 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 18:55:08,071 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 18:55:08,126 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:55:08.072760，结束等待时间点：2020-08-14 18:55:08.126763，等待时长为：0:00:00.054003
+2020-08-14 18:55:08,127 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 18:55:08,204 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 18:55:08,234 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 18:55:08,454 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 18:55:08,454 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 18:55:08,478 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:55:08.455782，结束等待时间点：2020-08-14 18:55:08.478783，等待时长为：0:00:00.023001
+2020-08-14 18:55:08,480 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 18:55:08,535 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 18:55:08,567 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 18:55:08,687 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 18:55:08,721 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:55:08.687795，结束等待时间点：2020-08-14 18:55:08.721797，等待时长为：0:00:00.034002
+2020-08-14 18:55:08,721 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 18:55:08,750 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 18:55:08,832 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 18:55:09,452 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:55:08.833804，结束等待时间点：2020-08-14 18:55:09.451839，等待时长为：0:00:00.618035
+2020-08-14 18:55:09,453 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 18:55:09,453 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 18:55:09,714 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:55:09.456839，结束等待时间点：2020-08-14 18:55:09.714854，等待时长为：0:00:00.258015
+2020-08-14 18:55:09,731 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 18:55:13,583 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:55:16,645 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:55:18,057 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:55:21,225 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/pd/129826705129922560
+2020-08-14 18:55:21,526 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 buy_button 可见。
+2020-08-14 18:55:22,185 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:55:21.531530，结束等待时间点：2020-08-14 18:55:22.185567，等待时长为：0:00:00.654037
+2020-08-14 18:55:22,185 basepage.py--> get_element 20: INFO ----->查找 商品详情页_点击立即购买按钮 中的元素 buy_button
+2020-08-14 18:55:22,209 basepage.py--> click_element 20: INFO ----->点击 商品详情页_点击立即购买按钮  中的元素 buy_button
+2020-08-14 18:55:55,562 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:55:58,463 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:55:59,950 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:56:03,119 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的第 1 个元素 login_phone_parent
+2020-08-14 18:56:03,119 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_phone_parent 可见。
+2020-08-14 18:56:03,202 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:56:03.135910，结束等待时间点：2020-08-14 18:56:03.202913，等待时长为：0:00:00.067003
+2020-08-14 18:56:03,204 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_parent
+2020-08-14 18:56:03,276 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找手机号输入框 中的元素 login_phone_children
+2020-08-14 18:56:03,308 basepage.py--> send_value 20: INFO ----->在 登录页面_输入手机号 值为 13710646151
+2020-08-14 18:56:03,518 basepage.py--> find_list_element 20: INFO ----->查找 登录页面_查找密码输入框 中的第 2 个元素 login_password_parent
+2020-08-14 18:56:03,519 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_password_parent 可见。
+2020-08-14 18:56:03,545 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:56:03.519932，结束等待时间点：2020-08-14 18:56:03.545933，等待时长为：0:00:00.026001
+2020-08-14 18:56:03,547 basepage.py--> find_elements 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_parent
+2020-08-14 18:56:03,603 basepage.py--> find_level_element 20: INFO ----->查找 登录页面_查找密码输入框 中的元素 login_password_children
+2020-08-14 18:56:03,632 basepage.py--> send_value 20: INFO ----->在 登录页面_输入密码 值为 123456
+2020-08-14 18:56:03,758 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_button 可见。
+2020-08-14 18:56:03,804 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:56:03.758945，结束等待时间点：2020-08-14 18:56:03.804948，等待时长为：0:00:00.046003
+2020-08-14 18:56:03,805 basepage.py--> get_element 20: INFO ----->查找 登录页面_点击登录按钮 中的元素 login_button
+2020-08-14 18:56:03,839 basepage.py--> click_element 20: INFO ----->点击 登录页面_点击登录按钮  中的元素 login_button
+2020-08-14 18:56:03,938 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_message_success 可见。
+2020-08-14 18:56:04,844 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:56:03.942956，结束等待时间点：2020-08-14 18:56:04.844007，等待时长为：0:00:00.901051
+2020-08-14 18:56:04,844 basepage.py--> find_list_element 20: INFO ----->查找 校验登录_登录成功 中的第 11 个元素 login_success_tip
+2020-08-14 18:56:04,845 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 login_success_tip 可见。
+2020-08-14 18:56:04,992 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:56:04.850008，结束等待时间点：2020-08-14 18:56:04.991016，等待时长为：0:00:00.141008
+2020-08-14 18:56:04,993 basepage.py--> find_elements 20: INFO ----->查找 校验登录_登录成功 中的元素 login_success_tip
+2020-08-14 18:56:08,661 basepage.py--> open_window 20: INFO ----->{'开始打开chrome浏览器'}
+2020-08-14 18:56:11,715 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/login
+2020-08-14 18:56:13,127 basepage.py--> handle_window 20: INFO ----->对窗口的操作-最大化
+2020-08-14 18:56:16,272 basepage.py--> set_cookies 20: INFO ----->本次登录的cookie： {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': 'a3b04f8e-9abf-4bf3-911c-e0338cb73f43'} 
+2020-08-14 18:56:19,296 basepage.py--> set_cookies 20: INFO ----->确认是否保存cookies [{'domain': 'eshop.tslj.cn', 'expiry': 1597488959, 'httpOnly': False, 'name': 'pageViewNum', 'path': '/', 'secure': False, 'value': '1'}, {'domain': 'eshop.tslj.cn', 'httpOnly': True, 'name': 'SESSION', 'path': '/', 'secure': False, 'value': 'a3b04f8e-9abf-4bf3-911c-e0338cb73f43'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597404359, 'httpOnly': False, 'name': 'qimo_seosource_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': '%E7%AB%99%E5%86%85'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597488959, 'httpOnly': False, 'name': 'accessId', 'path': '/', 'secure': False, 'value': '9c912900-5500-11e8-aeee-f504f23baa26'}, {'domain': 'eshop.tslj.cn', 'httpOnly': False, 'name': 'href', 'path': '/', 'secure': False, 'value': 'http%3A%2F%2Feshop.tslj.cn%2F%23%2Flogin'}, {'domain': 'eshop.tslj.cn', 'expiry': 1597404359, 'httpOnly': False, 'name': 'qimo_seokeywords_9c912900-5500-11e8-aeee-f504f23baa26', 'path': '/', 'secure': False, 'value': ''}]
+2020-08-14 18:56:19,297 basepage.py--> get_url 20: INFO ----->开始打开地址 http://eshop.tslj.cn/#/pd/129826705129922560
+2020-08-14 18:56:19,804 basepage.py--> wait_eleVisible 20: INFO ----->等待元素 buy_button 可见。
+2020-08-14 18:56:20,494 basepage.py--> wait_eleVisible 20: INFO ----->开始等待时间点：2020-08-14 18:56:19.806863，结束等待时间点：2020-08-14 18:56:20.494902，等待时长为：0:00:00.688039
+2020-08-14 18:56:20,494 basepage.py--> get_element 20: INFO ----->查找 商品详情页_点击立即购买按钮 中的元素 buy_button
+2020-08-14 18:56:20,518 basepage.py--> click_element 20: INFO ----->点击 商品详情页_点击立即购买按钮  中的元素 buy_button

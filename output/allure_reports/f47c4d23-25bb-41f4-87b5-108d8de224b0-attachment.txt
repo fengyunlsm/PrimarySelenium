@@ -1,0 +1,21 @@
+INFO     util.usr_log:basepage.py:26 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:52 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:107 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:184 查找 登录页面_点击忘记密码 中的元素 forget_password
+INFO     util.usr_log:basepage.py:184 查找 校验跳转_跳转到忘记密码页 中的元素 forget_password_check
+ERROR    util.usr_log:basepage.py:202 查找元素失败
+Traceback (most recent call last):
+  File "D:\pyProject\PrimarySelenium\base\basepage.py", line 191, in get_element
+    element = self.driver.find_element_by_class_name(value)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 564, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".stepBtn"}
+  (Session info: chrome=84.0.4147.105)
+
+INFO     util.usr_log:basepage.py:145 网页截图成功。图片存储在：D:\pyProject\PrimarySelenium\output/image\2020-08-13\_2020-08-13 12_37_12.png

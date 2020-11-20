@@ -1,0 +1,9 @@
+INFO     util.usr_log:basepage.py:26 {'开始打开chrome浏览器'}
+INFO     util.usr_log:basepage.py:52 开始打开地址 http://eshop.tslj.cn/#/login
+INFO     util.usr_log:basepage.py:111 对窗口的操作-最大化
+INFO     util.usr_log:basepage.py:85 等待元素 forget_password 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 12:56:28.628742，结束等待时间点：2020-08-13 12:56:28.749749，等待时长为：0:00:00.121007
+INFO     util.usr_log:basepage.py:189 查找 登录页面_点击忘记密码 中的元素 forget_password
+INFO     util.usr_log:basepage.py:85 等待元素 forget_password_check 可见。
+INFO     util.usr_log:basepage.py:95 开始等待时间点：2020-08-13 12:56:29.056767，结束等待时间点：2020-08-13 12:56:29.178774，等待时长为：0:00:00.122007
+INFO     util.usr_log:basepage.py:189 查找 忘记密码页_校验跳转成功 中的元素 forget_password_check
