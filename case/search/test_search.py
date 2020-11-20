@@ -1,6 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 import sys
-sys.path.append('d:\\pyProject\\PrimarySelenium')
 import os, time, pytest
+base_path = os.getcwd()
+sys.path.append(base_path)
 from page.productdetail_page import ProductDetailPage
 
 

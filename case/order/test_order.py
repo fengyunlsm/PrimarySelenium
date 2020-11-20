@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 import sys, os, time, pytest
 base_path = os.getcwd()
 sys.path.append(base_path)

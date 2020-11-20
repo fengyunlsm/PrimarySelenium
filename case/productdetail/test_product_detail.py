@@ -1,5 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 import sys
-sys.path.append('d:\\pyProject\\PrimarySelenium')
 import os, time, pytest
 
 

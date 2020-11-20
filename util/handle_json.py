@@ -1,7 +1,9 @@
 import json
 import requests
 from selenium import webdriver
-import time
+import time, os, sys
+base_path = os.getcwd()
+sys.path.append(base_path)
 
 class HandleJson:
     def load_json(self):

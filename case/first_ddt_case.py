@@ -1,6 +1,7 @@
 #coding=utf-8
 import sys
-sys.path.append('d:\\pyProject\\PrimarySelenium')
+base_path = os.getcwd()
+sys.path.append(base_path)
 from handle.register_handle import RegisterHandle
 import HTMLTestRunner
 import os, time, unittest, ddt

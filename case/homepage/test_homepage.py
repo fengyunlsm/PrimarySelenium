@@ -1,6 +1,6 @@
-#coding=utf-8
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
 import sys
-sys.path.append('d:\\pyProject\\PrimarySelenium')
 import time
 
 class HomePage(object):
