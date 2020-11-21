@@ -22,5 +22,4 @@ def init_cart(init_driver):
     cart = ShoppingCartPage(init_driver)
     search = SearchPage(init_driver)
     yield init_driver, login, home, cart, productDetail, orderConfirm, search
-    init_driver.get_cookies()
     time.sleep(1)
