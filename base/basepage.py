@@ -31,6 +31,7 @@ class SeleniumDriver:
         try:
             if browser == 'chrome':
                 if 'linux' in sys.platform:
+                    loger.info("救命啊")
                     options = webdriver.ChromeOptions()
                     binary_location = '/usr/bin/google-chrome'
                     chrome_driver_binary = '/usr/bin/chromedriver'
