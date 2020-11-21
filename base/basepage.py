@@ -39,7 +39,7 @@ class SeleniumDriver:
                     options.add_argument('--start-maximized')   # 最大化运行，设置元素定位比较准确
                     options.add_argument('--disable-gpu')
 
-                    chrome_options.binary_location = binary_location
+                    # chrome_options.binary_location = binary_location
                     
                     # chrome_options.add_argument('--disable-dev-shm-usage')
                     options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
