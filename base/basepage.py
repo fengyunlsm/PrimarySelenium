@@ -30,15 +30,12 @@ class SeleniumDriver:
         self.loger.info({"开始打开{}浏览器".format(browser)})
         try:
             if browser == 'chrome':
-                # options = webdriver.ChromeOptions()
-                # prefs = {'download.default_directory': 'D:\\Download\\', 'profile.default_content_settings.popups': 0} # 设置自定义路径
-                # options.add_experimental_option('prefs', prefs) # 设置默认路径
                 if 'linux' in sys.platform:
                     options = webdriver.ChromeOptions()
                     binary_location = '/usr/bin/google-chrome'
                     chrome_driver_binary = '/usr/bin/chromedriver'
-                    options.add_argument('--headless')  # 无界面运行 
-                    options.add_argument('--no-sandbox') # 以最高权限运行
+                    options.add_argument('headless')  # 无界面运行 
+                    options.add_argument('no-sandbox') # 以最高权限运行
                     options.add_argument('--start-maximized')   # 最大化运行，设置元素定位比较准确
                     options.add_argument('--disable-gpu')
 
@@ -53,6 +50,11 @@ class SeleniumDriver:
                     # chromedriver = '/usr/bin/chromedriver'
                     driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options = options) # 输入参数为options=options
                     # WAIT = WebDriverWait(driver, 5)
+                else:
+                    options = webdriver.ChromeOptions()
+                    prefs = {'download.default_directory': 'D:\\Download\\', 'profile.default_content_settings.popups': 0} # 设置自定义路径
+                    options.add_experimental_option('prefs', prefs) # 设置默认路径
+                    driver = webdriver.Chrome(options=options) # 输入参数为options=options
             elif browser == 'firefox':
                 profile = webdriver.FirefoxProfile()
                 profile.set_preference('browser.download.dir', 'D:\\Download\\')
