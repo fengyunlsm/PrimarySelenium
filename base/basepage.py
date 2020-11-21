@@ -48,7 +48,7 @@ class SeleniumDriver:
                 os.environ["webdriver.chrome.driver"] = chromedriver
                 # chromedriver = '/usr/bin/chromedriver'
                 driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options =chrome_options) # 输入参数为options=options
-                WAIT = WebDriverWait(driver, 5)
+                # WAIT = WebDriverWait(driver, 5)
             elif browser == 'firefox':
                 profile = webdriver.FirefoxProfile()
                 profile.set_preference('browser.download.dir', 'D:\\Download\\')
