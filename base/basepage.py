@@ -33,22 +33,26 @@ class SeleniumDriver:
                 # options = webdriver.ChromeOptions()
                 # prefs = {'download.default_directory': 'D:\\Download\\', 'profile.default_content_settings.popups': 0} # 设置自定义路径
                 # options.add_experimental_option('prefs', prefs) # 设置默认路径
-                binary_location = '/usr/bin/google-chrome'
-                chrome_driver_binary = '/usr/bin/chromedriver'
+                if 'linux' in sys.platform:
+                    options = webdriver.ChromeOptions()
+                    binary_location = '/usr/bin/google-chrome'
+                    chrome_driver_binary = '/usr/bin/chromedriver'
+                    options.add_argument('--headless')  # 无界面运行 
+                    options.add_argument('--no-sandbox') # 以最高权限运行
+                    options.add_argument('--start-maximized')   # 最大化运行，设置元素定位比较准确
+                    options.add_argument('--disable-gpu')
 
-                chrome_options = Options()
-                chrome_options.binary_location = binary_location
-                chrome_options.add_argument('--no-sandbox')
-                chrome_options.add_argument('--headless')
-                chrome_options.add_argument('--disable-gpu')
-                chrome_options.add_argument('--disable-dev-shm-usage')
-                chrome_options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
-                chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
-                chromedriver = chrome_driver_binary
-                os.environ["webdriver.chrome.driver"] = chromedriver
-                # chromedriver = '/usr/bin/chromedriver'
-                driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options =chrome_options) # 输入参数为options=options
-                # WAIT = WebDriverWait(driver, 5)
+                    chrome_options.binary_location = binary_location
+                    
+                    # option.add_argument('--disable-gpu')
+                    # chrome_options.add_argument('--disable-dev-shm-usage')
+                    # chrome_options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
+                    # chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
+                    # chromedriver = chrome_driver_binary
+                    # os.environ["webdriver.chrome.driver"] = chromedriver
+                    # chromedriver = '/usr/bin/chromedriver'
+                    driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options = options) # 输入参数为options=options
+                    # WAIT = WebDriverWait(driver, 5)
             elif browser == 'firefox':
                 profile = webdriver.FirefoxProfile()
                 profile.set_preference('browser.download.dir', 'D:\\Download\\')
