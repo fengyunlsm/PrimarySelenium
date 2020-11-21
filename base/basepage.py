@@ -41,7 +41,7 @@ class SeleniumDriver:
                     options.add_argument('window-size=1920x3000')
                     options.add_argument('--hide-scrollbars') # 影藏滚动条
                     options.add_argument('blink-settings=imagesEnabled=false') # 不加载图片提升速度
-                    chrome_options.binary_location = binary_location
+                    # chrome_options.binary_location = binary_location
                     chromedriver = chrome_driver_binary
                     # chrome_options.add_argument('--disable-dev-shm-usage')
                     options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
