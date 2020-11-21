@@ -41,11 +41,10 @@ class SeleniumDriver:
 
                     chrome_options.binary_location = binary_location
                     
-                    # option.add_argument('--disable-gpu')
                     # chrome_options.add_argument('--disable-dev-shm-usage')
-                    # chrome_options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
-                    # chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
-                    # chromedriver = chrome_driver_binary
+                    options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
+                    options.add_experimental_option('excludeSwitches', ['enable-automation'])
+                    # options = chrome_driver_binary
                     # os.environ["webdriver.chrome.driver"] = chromedriver
                     # chromedriver = '/usr/bin/chromedriver'
                     driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options = options) # 输入参数为options=options
