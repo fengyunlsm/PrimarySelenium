@@ -10,6 +10,8 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.chrome.options import Options
+
 from selenium.webdriver.common.keys import Keys
 # from pykeyboard import PyKeyboard
 import time, datetime, os
@@ -28,11 +30,23 @@ class SeleniumDriver:
         self.loger.info({"开始打开{}浏览器".format(browser)})
         try:
             if browser == 'chrome':
-                options = webdriver.ChromeOptions()
+                # options = webdriver.ChromeOptions()
                 # prefs = {'download.default_directory': 'D:\\Download\\', 'profile.default_content_settings.popups': 0} # 设置自定义路径
                 # options.add_experimental_option('prefs', prefs) # 设置默认路径
-                chromedriver = '/usr/bin/chromedriver'
-                driver = webdriver.Chrome(executable_path=chromedriver) # 输入参数为options=options
+                binary_location = '/usr/bin/google-chrome'
+                chrome_driver_binary = '/usr/bin/chromedriver'
+
+                chrome_options = Options()
+                chrome_options.binary_location = binary_location
+                chrome_options.add_argument('--no-sandbox')
+                chrome_options.add_argument('--headless')
+                chrome_options.add_argument('--disable-gpu')
+                chrome_options.add_argument('--disable-dev-shm-usage')
+
+                chromedriver = chrome_driver_binary
+                os.environ["webdriver.chrome.driver"] = chromedriver
+                # chromedriver = '/usr/bin/chromedriver'
+                driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', chrome_options=chrome_options) # 输入参数为options=options
             elif browser == 'firefox':
                 profile = webdriver.FirefoxProfile()
                 profile.set_preference('browser.download.dir', 'D:\\Download\\')
