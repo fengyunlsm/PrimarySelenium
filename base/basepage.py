@@ -11,7 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
-
+from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 # from pykeyboard import PyKeyboard
 import time, datetime, os
@@ -42,11 +42,13 @@ class SeleniumDriver:
                 chrome_options.add_argument('--headless')
                 chrome_options.add_argument('--disable-gpu')
                 chrome_options.add_argument('--disable-dev-shm-usage')
-
+                chrome_options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
+                chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
                 chromedriver = chrome_driver_binary
                 os.environ["webdriver.chrome.driver"] = chromedriver
                 # chromedriver = '/usr/bin/chromedriver'
-                driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', chrome_options=chrome_options) # 输入参数为options=options
+                driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options =chrome_options) # 输入参数为options=options
+                WAIT = WebDriverWait(driver, 5)
             elif browser == 'firefox':
                 profile = webdriver.FirefoxProfile()
                 profile.set_preference('browser.download.dir', 'D:\\Download\\')

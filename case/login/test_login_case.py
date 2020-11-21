@@ -9,7 +9,6 @@ class TestLoginCase():
     # 登录成功
     @pytest.mark.search
     @pytest.mark.buy
-    @pytest.mark.run(order=1)
     @pytest.mark.usefixtures("init_driver")
     def test_login_case(self, init_login):
         
