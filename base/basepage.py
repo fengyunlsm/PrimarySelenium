@@ -38,8 +38,12 @@ class SeleniumDriver:
                     options.add_argument('--no-sandbox') # 以最高权限运行
                     options.add_argument('--start-maximized')   # 最大化运行，设置元素定位比较准确
                     options.add_argument('--disable-gpu')
+                    options.add_argument('window-size=1920x3000')
+                    # options.add_argument('blink-settings=imagesEnabled=false') # 不加载图片提升速度
+
                     options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
                     options.add_experimental_option('excludeSwitches', ['enable-automation'])
+ 
                     driver = webdriver.Chrome(executable_path = chrome_driver_binary, options = options) # 输入参数为options=options
                 else:
                     options = webdriver.ChromeOptions()
