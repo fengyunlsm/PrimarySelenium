@@ -48,7 +48,7 @@ class SeleniumDriver:
                     options.add_experimental_option('excludeSwitches', ['enable-automation'])
                     # options = chrome_driver_binary
                     # os.environ["webdriver.chrome.driver"] = chromedriver
-                    driver = webdriver.Chrome(executable_path = chrome_driver_binary, options = options, service_args=['--verbose', '--log-path=/tmp/chromedriver.log']) # 输入参数为options=options
+                    driver = webdriver.Chrome(executable_path = chrome_driver_binary, options = options) # 输入参数为options=options
                     # driver.get("www.baidu.com")
                     # driver.quit()
                     # WAIT = WebDriverWait(driver, 5)
