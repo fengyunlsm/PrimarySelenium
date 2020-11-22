@@ -14,7 +14,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 # from pykeyboard import PyKeyboard
-import time, datetime, os
+import time, datetime, os, traceback
 from util.usr_log import UserLog
 from util.dir_config import screenshot_dir
 
@@ -43,15 +43,14 @@ class SeleniumDriver:
                     options.add_argument('--hide-scrollbars') # 影藏滚动条
                     options.add_argument('blink-settings=imagesEnabled=false') # 不加载图片提升速度
                     # chrome_options.binary_location = binary_location
-                    chromedriver = chrome_driver_binary
                     # chrome_options.add_argument('--disable-dev-shm-usage')
                     options.add_argument("service_args=['–ignore-ssl-errors=true', '–ssl-protocol=TLSv1']") 
                     options.add_experimental_option('excludeSwitches', ['enable-automation'])
                     # options = chrome_driver_binary
-                    os.environ["webdriver.chrome.driver"] = chromedriver
-                    driver = webdriver.Chrome(executable_path = chromedriver, options = options) # 输入参数为options=options
-                    driver.get("www.baidu.com")
-                    driver.quit()
+                    # os.environ["webdriver.chrome.driver"] = chromedriver
+                    driver = webdriver.Chrome(executable_path = chrome_driver_binary, options = options, service_args=['--verbose', '--log-path=/tmp/chromedriver.log']) # 输入参数为options=options
+                    # driver.get("www.baidu.com")
+                    # driver.quit()
                     # WAIT = WebDriverWait(driver, 5)
                 else:
                     options = webdriver.ChromeOptions()
@@ -71,8 +70,8 @@ class SeleniumDriver:
             else:
                 self.loger.exception("打开浏览器失败，请检查是否输入参数有误")
             return driver
-        except:
-            self.loger.exception("打开浏览器失败, 请检查是否是driver版本不正确")
+        except Exception as e:
+            print(traceback.print_exc())
             return None
 
 
